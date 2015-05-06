@@ -6,7 +6,7 @@ description: >
   who want to build their online CV and blog and
   learn about HTML, CSS and other fun technologies
   for building awesome web sites.
-baseurl: "" # the subpath of your site, e.g. /blog/
+baseurl: "/codecatz-tutorial" # the subpath of your site, e.g. /blog/
 url: "http://codecatz.org/codecatz-tutorial" # the base hostname & protocol for your site
 twitter_username: CodeCatz
 github_username:  codecatz
