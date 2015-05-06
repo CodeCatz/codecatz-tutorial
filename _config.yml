@@ -1,6 +1,6 @@
 # Site settings
 title: CodeCatz tutorial
-email: your-email@domain.com
+repository: https://github.com/CodeCatz/codecatz-tutorial
 description: >
   A super beginner-friendly workshop for kittens, 
   who want to build their online CV and blog and
@@ -9,7 +9,7 @@ description: >
 baseurl: "/codecatz-tutorial" # the subpath of your site, e.g. /blog/
 url: "http://codecatz.org/codecatz-tutorial" # the base hostname & protocol for your site
 twitter_username: CodeCatz
-github_username:  codecatz
+github_username:  CodeCatz
 
 # Build settings
 markdown: kramdown
