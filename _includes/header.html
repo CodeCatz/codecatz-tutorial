@@ -14,14 +14,21 @@
       </a>
 
       <div class="trigger">
-        {% for page in site.pages %}
-          {% if page.title %}
-          <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+        {% assign all_pages = site.pages | sort:"title" %}
+        {% for current_page in all_pages %}
+          {% assign active = nil %}
+          {% if page.url == current_page.permalink %}
+            {% assign active = 'active' %}
+          {% endif %}
+          {% if current_page.title %}
+          <a class="page-link {{ active }}" href="{{ current_page.url | prepend: site.baseurl }}">{{ current_page.title }}</a>
           {% endif %}
         {% endfor %}
       </div>
     </nav>
-
+{% if page.url contains link.url %}
+            {% assign active = 'active' %}
+          {% endif %}
   </div>
 
 </header>

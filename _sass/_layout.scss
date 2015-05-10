@@ -41,6 +41,11 @@
         }
     }
 
+    .active {
+        color: #73B9E6;
+        font-weight: 500;
+    }
+
     @include media-query($on-palm) {
         position: absolute;
         top: 9px;
