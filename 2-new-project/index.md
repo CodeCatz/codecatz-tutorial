@@ -4,7 +4,7 @@ title: "Part 2: Create a new project"
 permalink: /2-new-project/
 ---
 
-In part 1, you installed everything we'll need to create a new Jekyll project. By doing that, you'll instantly get the basic elements of your new website.
+In <a href="{{ "/1-installation" | prepend: site.baseurl }}">Part 1</a>, you installed everything we'll need to create a new Jekyll project. By doing that, you'll instantly get the basic elements of your new website.
 
 # Start a new project
 
