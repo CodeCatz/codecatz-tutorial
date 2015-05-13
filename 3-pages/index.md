@@ -46,7 +46,7 @@ The second part of `index.html` is more interesting. It's mainly written in HTML
 
 	</div>
 
-Looks confusing, but it's simple if you follow the rules. HTML is mainly used to define the structure of websites. Let's take a closer look at this line:
+Looks confusing, but it's actually pretty simple. HTML is mainly used to define the structure of websites. Let's take a closer look at this line:
 
 	<h1 class="page-heading">Posts</h1>
 

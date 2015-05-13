@@ -4,7 +4,7 @@ title: "Part 1: Let's get your computer ready!"
 permalink: /1-installation/
 ---
 
-You'll create your website with a framework called <a href="http://jekyllrb.com" target="_blank">Jekyll</a>. Despite the unusual name, Jekyll is a nifty tool you can use to create simple, yet flexible websites that can grow with you as you learn more about various web technologies. 
+You'll create your website with a framework called <a href="http://jekyllrb.com" target="_blank">Jekyll</a>. Despite the unusual name, Jekyll is a nice tool you can use to create simple, yet flexible websites that can grow with you as you learn more about various web technologies. 
 
 Before we can get started, let's take a few minutes to get familiar with an app that allows you to command your computer. We'll also install a few tools on your computer that will make your work easier.
 
