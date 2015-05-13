@@ -211,7 +211,12 @@ pre {
     font-size: 0.9em;
     padding: 1em;
     background-color: #F0F8FF;
- }
+}
+
+.hint+h1 {
+    padding-top: 1em;
+}
+
 
 .more {
     font-size: 0.9em;

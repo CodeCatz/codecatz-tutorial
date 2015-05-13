@@ -10,6 +10,8 @@ In <a href="{{ "/2-new-project" | prepend: site.baseurl }}">Part 2</a>, you crea
 
 In Sublime, open the file `index.html`. 
 
+// TODO: Explain YAML
+
 It's made out of two parts. The first part is written in YAML front matter, which can be used to define variables - special characteristics of the page. In order for Jekyll to understand YAML, it must be the first thing in the file and placed between triple-dashed lines, just like in the `index.html` file:
 
 	---
@@ -83,7 +85,7 @@ Now that you know a bit about HTML, you can start exploring how other websites a
 
 At the moment, you still have the section that displays blog posts on the front page of the website. We'll now create a new web page that will be used for displaying blog posts, so there's more space for other content.
 
-Copy the file `about.md` and rename it as `blog.html` (make sure both files are in the same directory). Edit the YAML part of `blog.html` like this:
+Copy the file `about.md` and rename it to `blog.html` (make sure both files are in the same directory). Edit the YAML part of `blog.html` like this:
 
 	---
 	layout: page
