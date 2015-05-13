@@ -6,11 +6,11 @@ permalink: /1-installation/
 
 You'll create your website with a framework called <a href="http://jekyllrb.com" target="_blank">Jekyll</a>. Despite the unusual name, Jekyll is a nice tool you can use to create simple, yet flexible websites that can grow with you as you learn more about various web technologies. 
 
-Before we can get started, let's take a few minutes to get familiar with an app that allows you to talk to your computer directly and to install a few tools on your computer that will make your work easier.
+Before we can get started, let's take a few minutes to get familiar with an app that allows you to command your computer. We'll also install a few tools on your computer that will make your work easier.
 
 ## Step 1: Get to know the Terminal
 
-First, find and open an app called Terminal on your computer. It looks like something from a sci-fi movie, but don't be intimidated by its looks.
+First, find and open an app called Terminal on your computer. It's usually in `/Applications/Utilities`. It looks like something from a sci-fi movie, but don't be intimidated by its looks.
 
 // TODO: screenshot
 
@@ -136,7 +136,7 @@ To make sure we're all using the same tools, let's go ahead and install <a href=
 
 ## Step 5: Install GitHub
 
-This app will make it easier to publish your website online by the end of the day.
+This app will make it easier to publish your website online at the end of the day.
 
 // TODO: install links and instructions
 

@@ -59,7 +59,7 @@ The website should look something like this:
 
 Click around a bit. The website doesn't look like much, but it already has an About page and a blog post that you'll soon be able to edit.
 
-After you've explored the website, go back to the Terminal. Press the Control and C keys on your keyboard to stop running the website. If you go back to your web browser now and referesh your website, it won't work anymore. Go back to the Terminal and run the website again with `jekyll serve`.
+After you've explored the website, go back to the Terminal. Press the Control and C keys (not `cmd`!) on your keyboard to stop running the website. If you go back to your web browser now and referesh your website, it won't work anymore. Go back to the Terminal and run the website again with `jekyll serve`.
 
 <div class="hint">
 Hint: remember this part, so you can visit your website on your own later on. Remember to run <code>jekyll serve</code> from the Terminal inside the folder of your Jekyll project (use <code>pwd</code> to check whether you're in the right folder).
@@ -85,7 +85,7 @@ These are the main folders and files you should see:
 
 # Customize the text on the front page
 
-Let's start making your website your own. In Sublime, open the `_config.yml` file in your project, and replace the title, email, and description with your own content.
+Let's start making this website your own. In Sublime, open the `_config.yml` file in your project, and replace the title, email, and description with your own content.
 
 Make sure to only edit the text after `:`. The text after the hash sign (`#`) are comments that won't be displayed, but can help you understand what each part of the file is for.
 
