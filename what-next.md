@@ -8,9 +8,9 @@ Congratulations on building your first website! We suggest you keep practicing t
 
 You'll also learn a lot by looking at how other people create their projects. This tutorial was also written in Jekyll. Go ahead and explore its code <a href="{{ site.repository }}" target="_blank">on GitHub</a>. You can download the code and run the website on your computer. Feel free to play around with it!
 
-But the best way to learn new coding skills is to set practical goals (for example: "I want to sort pages alphabetically") and using Google to find tips (for example: "Jekyll sort pages alphabetically"). Don't be discouraged if the links and answers you find are full or gibberish you don't yet understand. 
+But the best way to learn new coding skills is to set practical goals (for example: "I want to sort pages alphabetically") and using Google to find tips (for example: "Jekyll sort pages alphabetically"). The <a href="http://jekyllrb.com/docs/home/" target="_blank">Jekyll Documentation</a> also includes more information and samples that can help you improve your website. 
 
-It takes time and practice to become familiar with new concepts. Just keep playing around with your website every day, and eventually things will start making sense.
+Don't be discouraged if the links and answers you find are full or gibberish you don't yet understand. It takes time and practice to become familiar with new concepts. Just keep playing around with your website every day, and eventually things will start making sense.
 
 # Ready for more programming?
 

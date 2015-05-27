@@ -10,8 +10,6 @@ In <a href="{{ "/2-new-project" | prepend: site.baseurl }}">Part 2</a>, you crea
 
 In Sublime, open the file `index.html`. 
 
-// TODO: Explain YAML
-
 It's made out of two parts. The first part is written in YAML front matter, which can be used to define variables - special characteristics of the page. In order for Jekyll to understand YAML, it must be the first thing in the file and placed between triple-dashed lines, just like in the `index.html` file:
 
 	---
