@@ -20,7 +20,7 @@ The `<link>` HTML tag is used to define links between your website and other fil
 
 If you open the file `css/main.scss`, you'll see a list of various style definitions. At the end of the file, you'll find the line `@import` that lists additional style files from the `_sass` folder. For example, the part `"base"` imports the file `_sass/_base.scss`. If you ever add new style files to the `_sass` folder, make sure to include them in this part or the website will ignore them. 
 
-If you wanted to add a new CSS file from somewhere else, you'd have to use the `<link>` tag with the right path in the file `_includes/head.html`. The order in which stylsheet files are linked in the website head is important. You should include the most general files fist, and specific files that override general styles later (we'll see an example of this later on).
+If you wanted to add a new CSS file from somewhere else, you'd have to use the `<link>` tag with the right path in the file `_includes/head.html`. The order in which stylesheet files are linked in the website head is important. You should include the most general files fist, and specific files that override general styles later (we'll see an example of this later on).
 
 ## SASS? SCSS? CSS?
 
@@ -48,7 +48,7 @@ Depending on the element we're styling, we can change different properties. For 
 Don't worry, you don't have to memorize all of them, you'll soon remember those that are most commonly used and Google the rest (no kidding, we all do this!).
 
 
-## Definining custom CSS classes
+## Defining custom CSS classes
 
 Often, you don't want to change the style of all elements, but just a certain group that has a certain role on the page. In this case, we can add a custom class to a HTML element. Usually we do this to `<div>` elements that are used for blocks of content. 
 
@@ -84,7 +84,7 @@ Now find the line that starts with `$brand-color:` and set the value to `#27ae60
 
 Wait a minute, what's with this mysterious color code? You can use common color names such as `red`, `blue`, but if you want to pick a more specific shade, you'll use HEX color codes. 
 
-Hex color codes start with a hastag, followed by values for red, green, blue in hexadecimal values. Sounds complicated? Don't worry, you can easily find <a href="http://www.w3schools.com/tags/ref_colorpicker.asp" target="_blank">HEX color pickers</a> that help you find the right HEX code just for the color you want.
+Hex color codes start with a hashtag, followed by values for red, green, blue in hexadecimal values. Sounds complicated? Don't worry, you can easily find <a href="http://www.w3schools.com/tags/ref_colorpicker.asp" target="_blank">HEX color pickers</a> that help you find the right HEX code just for the color you want.
 
 Save the style file and reload your website. You'll see that all links on the page turned into a green color! Don't like green? Use a color picker website to find a better colors. <a href="http://flatuicolors.com" target="_blank">Flat UI colors</a> is another website that offers cool color pallets for your website.
 
@@ -92,7 +92,7 @@ Before we move to other files, let's just add another line to the `css/main.scss
 
 	$heading-family: "Montserrat", "Helvetica Neue", Arial, sans-serif;
 
-You can add this after the `$base-font-family:` line. You can use this approach whenever you want to add general website variables that you want to reuse. Just make sure to use variable names that don't use spaces, you can seprate multiple words with dashes (the same goes for longer class names).
+You can add this after the `$base-font-family:` line. You can use this approach whenever you want to add general website variables that you want to reuse. Just make sure to use variable names that don't use spaces, you can separate multiple words with dashes (the same goes for longer class names).
 
 # Change the color of headings
 
@@ -167,21 +167,44 @@ Save, refresh. Don't like what you see? Feel free to play around and experiment 
 
 # Bonus points: meet Bootstrap
 
-TODO: what is bootstrap?
+If you want to learn a cool trick that can help you make prettier website designs faster, we also want to show you a little tool called <a href="http://getbootstrap.com">Bootstrap</a>. Feel free to ship this part and return back to it at a later time. 
 
-- include bootstrap in _includes/head.html, after the description
-- refresh, not much changes, but we'll be able to use some cool eleements soon
+Bootstrap is a framework that comes with a wide range of pre-defined styles for common website elements like buttons, web forms and more. It's very popular among web developers. It also makes it easy to build websites that work well on a wide range of devices, from desktops to smaller screens on phones (you might have heard this called <a href="http://www.w3schools.com/html/html_responsive.asp" target="_blank">responsive web design</a>).
 
-Let's learn how to easily add icons with the help of bootstrap
- find an icon you like on http://getbootstrap.com/components/
+## Add Bootstrap to your website
 
- let's add it to the site title in _includes/header.html
+There are different ways to add Bootstrap to your website. You can copy the latest SASS version to you `_sass` folder (hint: remember the part about including any new styles you add in the main style file?), but we'll choose the faster way and link to an online version. You can find out more about other approaches on the <a href="http://getbootstrap.com/getting-started/" target="_blank">Bootstrap page</a>.
 
-     <a class="site-title" href="{{ site.baseurl }}/"> {{ site.title }} <span class="glyphicon glyphicon-leaf"  aria-hidden="true"></span></a>
+But let's just go with the easy way of adding a link. Open the file `_includes/head.html` and add the Bootstrap link right before the `<link>` tag that points to our local CSS file. You should now have two links (the order is important):
 
-	<span class="glyphicon glyphicon-leaf"  aria-hidden="true"></span>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+	<link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
 
-to index.html add:
+If you save the file and refresh your website, you'll only notice minor differences. Let's add some Bootstrap elements to our page!
+
+## Add a Glyphicon
+
+Find an icon you like on the <a href="http://getbootstrap.com/components/" target="_blank">Bootstrap page</a> and copy its class names somewhere. For example, if you like the leaf icon, you're going to need the class names `glyphicon glyphicon-leaf`. 
+
+As we don't have a logo, we'll add it to the site title to make it stand out a bit more. Open the file `_includes/header.html`, find where the title is displayed and add an in-line text tag with the name of the Glyphicon (icon) you want to use, for example:
+
+	<span class="glyphicon glyphicon-leaf"></span>
+
+The tag doesn't have any content as we're just going to use it to display the icon, but it's important to close it with `</span>`.
+
+You should now have a line like this:
+
+     <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }} <span class="glyphicon glyphicon-leaf"></span></a>
+
+Save, refresh, enjoy your new icon. Have fun adding more icons to other parts of the website, perhaps to the navigation menu?
+
+## Get to know the Bootstrap grid system
+
+One of the really cool things that Bootstrap makes easy is displaying content in columns that adjust to the width of the browser. On a desktop, you may want to display your content in three or four columns, but you want to shrink all that down into one on a mobile phone screen.
+
+Bootstrap makes this easy with the built-in grid system that divides the page in up to 12 columns. All you need to do to take advantage of this is use the right class names. You can find more examples on the <a href="http://getbootstrap.com/css/#grid" target="_blank">Bootstrap page</a>.
+
+Let's take a look at a simple example. Open the file `index.html` and add the following content anywhere you like:
 
 	<p>Things that will help me build websites:</p>
 
@@ -200,4 +223,12 @@ to index.html add:
 		</div>
 	</div>	
 
+Save, refresh the website. You'll see three perfectly divided columns. Try stretching your browser window and observe how the width of columns changes with the size of the windows. If you make the window narrow enough, the content will collapse into a single column. This is responsive design!
 
+And all you need to make your content responsive with bootstrap is define rows (`<div class="row">`) that include more `<div>` elements with classes that define how much room they can take on page (`class="col-md-4"`). All you have to keep in mind that the maximum number of collumns is 12. Try changing all `<div class="col-md-4">` from the example above to `<div class="col-md-3">` and see how that affects the layout of the page. Again, feel free to play around and experiment!
+
+# What did you learn?
+
+You're learned the basics of CSS, the design language of the web. This allowed you to add more color to the website. You also know about Bootstrap, a cool tool that can make designing website easier and faster.
+
+In <a href="{{ "/6-publish" | prepend: site.baseurl }}">Part 6</a>, you'll learn how to publish your pretty new website online, so you can share it with the whole world.
