@@ -59,7 +59,7 @@ The website should look something like this:
 
 Click around a bit. The website doesn't look like much, but it already has an About page and a blog post that you'll soon be able to edit.
 
-After you've explored the website, go back to the Terminal. Press the Control and C keys (not `cmd`!) on your keyboard to stop running the website. If you go back to your web browser now and referesh your website, it won't work anymore. Go back to the Terminal and run the website again with `jekyll serve`.
+After you've explored the website, go back to the Terminal. Press the Control and C keys (not `cmd`!) on your keyboard to stop running the website. If you go back to your web browser now and refresh your website, it won't work anymore. Go back to the Terminal and run the website again with `jekyll serve`.
 
 <div class="hint">
 Hint: remember this part, so you can visit your website on your own later on. Remember to run <code>jekyll serve</code> from the Terminal inside the folder of your Jekyll project (use <code>pwd</code> to check whether you're in the right folder).

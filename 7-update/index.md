@@ -28,7 +28,7 @@ This tag will only display a cat photo on your front page if you have a photo wi
 
 # Add more photos
 
-It's your turn to choose and add more photos to your website. Just reuse the `<img>` tage on any page or blog post wherever you want to display an image:
+It's your turn to choose and add more photos to your website. Just reuse the `<img>` tag on any page or blog post wherever you want to display an image:
 
 	<img src="/images/file-name.jpg"/> 
 

@@ -56,7 +56,7 @@ If your website doesn't open, make sure it's still running from the Terminal.You
 
 Well done! But now your new blog post still has the same content as the sample post. Let's work on that. Delete everything after the second set of `---` in your new blog post. Take a few minutes to think about what you've learned so far and write some notes that will help you when you'll be improving your website later on, on your own.
 
-Use your own words and your preffered language to write about how you could use Jekyll for your own projects and write any notes you've scribbled on paper during previous parts. You can use this as your learning journal. Don't rush this part, feel free to take as much time as you need to sort through your thoughts and ask questions about parts that still confuse you.
+Use your own words and your preferred language to write about how you could use Jekyll for your own projects and write any notes you've scribbled on paper during previous parts. You can use this as your learning journal. Don't rush this part, feel free to take as much time as you need to sort through your thoughts and ask questions about parts that still confuse you.
 
 After you're done, don't forget to save the file, reload your website in the browser, and see what you've written appear on the page. Good job! 
 

@@ -225,7 +225,7 @@ Let's take a look at a simple example. Open the file `index.html` and add the fo
 
 Save, refresh the website. You'll see three perfectly divided columns. Try stretching your browser window and observe how the width of columns changes with the size of the windows. If you make the window narrow enough, the content will collapse into a single column. This is responsive design!
 
-And all you need to make your content responsive with bootstrap is define rows (`<div class="row">`) that include more `<div>` elements with classes that define how much room they can take on page (`class="col-md-4"`). All you have to keep in mind that the maximum number of collumns is 12. Try changing all `<div class="col-md-4">` from the example above to `<div class="col-md-3">` and see how that affects the layout of the page. Again, feel free to play around and experiment!
+And all you need to make your content responsive with bootstrap is define rows (`<div class="row">`) that include more `<div>` elements with classes that define how much room they can take on page (`class="col-md-4"`). All you have to keep in mind that the maximum number of columns is 12. Try changing all `<div class="col-md-4">` from the example above to `<div class="col-md-3">` and see how that affects the layout of the page. Again, feel free to play around and experiment!
 
 # What did you learn?
 
