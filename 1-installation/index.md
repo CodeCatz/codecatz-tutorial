@@ -12,7 +12,7 @@ Before we can get started, let's take a few minutes to get familiar with an app 
 
 First, find and open an app called Terminal on your computer. It's usually in `/Applications/Utilities`. It looks like something from a sci-fi movie, but don't be intimidated by its looks.
 
-// TODO: screenshot
+<img src="{{ "/images/terminal-mac.png" | prepend: site.baseurl }}"/>
 
 The Terminal is a powerful tool that you can use to move around your computer and enter various commands. The Terminal is waiting for your commands if you see `$` at the end of the line. Let's start by typing a simple command first:
 

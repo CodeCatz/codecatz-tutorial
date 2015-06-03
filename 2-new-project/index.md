@@ -55,11 +55,11 @@ That's a lot of words that basically mean one thing: your website is now running
 
 The website should look something like this:
 
-// TODO: screenshot
+<img src="{{ "/images/part-2-website.png" | prepend: site.baseurl }}"/>
 
 Click around a bit. The website doesn't look like much, but it already has an About page and a blog post that you'll soon be able to edit.
 
-After you've explored the website, go back to the Terminal. Press the Control and C keys (not `cmd`!) on your keyboard to stop running the website. If you go back to your web browser now and referesh your website, it won't work anymore. Go back to the Terminal and run the website again with `jekyll serve`.
+After you've explored the website, go back to the Terminal. Press the Control and C keys (not `cmd`!) on your keyboard to stop running the website. If you go back to your web browser now and refresh your website, it won't work anymore. Go back to the Terminal and run the website again with `jekyll serve`.
 
 <div class="hint">
 Hint: remember this part, so you can visit your website on your own later on. Remember to run <code>jekyll serve</code> from the Terminal inside the folder of your Jekyll project (use <code>pwd</code> to check whether you're in the right folder).
@@ -69,7 +69,7 @@ Hint: remember this part, so you can visit your website on your own later on. Re
 
 In order to edit the website, you'll need a text editor. You should already have Sublime 2 installed on your computer (if not, go back to <a href="{{ "/1-installation/#step-4-install-a-text-editor" | prepend: site.baseurl }}">Part 1</a>). Once you open Sublime, use the File > Open menu to find and open your project directory.
 
-// TODO: screenshot
+<img src="{{ "/images/sublime-open-project.png" | prepend: site.baseurl }}"/>
 
 On the left side, you'll see a list of files and folders in your project. That's a lot of work Jekyll did for us! Click on file names to see what's inside and on folder names to reveal their contents.
 
