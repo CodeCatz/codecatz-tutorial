@@ -24,7 +24,7 @@ Don't worry if this sounds confusing, it will start making sense as we go along.
 
 The second part of `index.html` is more interesting. It's mainly written in HTML (HyperText Markup Language):
 
-	<div class="home">
+	{% raw %}<div class="home">
 
 	  <h1 class="page-heading">Posts</h1>
 
@@ -42,7 +42,7 @@ The second part of `index.html` is more interesting. It's mainly written in HTML
 
 	  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
-	</div>
+	</div>{% endraw %}
 
 Looks confusing, but it's actually pretty simple. HTML is mainly used to define the structure of websites. Let's take a closer look at this line:
 
@@ -93,7 +93,7 @@ Copy the file `about.md` and rename it to `blog.html` (make sure both files are 
 
 Delete the rest of the content and move the following part from `index.html` into `blog.html` (make sure to leave the YAML at the beginning of the `blog.html` file, the copied HTML should start in lines following the second pair of `---`): 
 
-	  <h1 class="page-heading">Posts</h1>
+	  {% raw %}<h1 class="page-heading">Posts</h1>
 
 	  <ul class="post-list">
 	    {% for post in site.posts %}
@@ -107,7 +107,7 @@ Delete the rest of the content and move the following part from `index.html` int
 	    {% endfor %}
 	  </ul>
 
-	  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+	  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>{% endraw %}
 
 Save all edited files (`index.html` and `blog.html`), refresh the website in your web browser and make sure everything works as expected. The navigation menu in the upper right corner should now have the link to your newly created "Blog" page.
 

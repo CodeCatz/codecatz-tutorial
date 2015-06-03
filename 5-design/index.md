@@ -177,8 +177,8 @@ There are different ways to add Bootstrap to your website. You can copy the late
 
 But let's just go with the easy way of adding a link. Open the file `_includes/head.html` and add the Bootstrap link right before the `<link>` tag that points to our local CSS file. You should now have two links (the order is important):
 
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-	<link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+	{% raw %}<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+	<link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">{% endraw %}
 
 If you save the file and refresh your website, you'll only notice minor differences. Let's add some Bootstrap elements to our page!
 
@@ -194,7 +194,7 @@ The tag doesn't have any content as we're just going to use it to display the ic
 
 You should now have a line like this:
 
-     <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }} <span class="glyphicon glyphicon-leaf"></span></a>
+     {% raw %}<a class="site-title" href="{{ site.baseurl }}/">{{ site.title }} <span class="glyphicon glyphicon-leaf"></span></a>{% endraw %}
 
 Save, refresh, enjoy your new icon. Have fun adding more icons to other parts of the website, perhaps to the navigation menu?
 
