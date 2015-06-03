@@ -111,6 +111,8 @@ Delete the rest of the content and move the following part from `index.html` int
 
 Save all edited files (`index.html` and `blog.html`), refresh the website in your web browser and make sure everything works as expected. The navigation menu in the upper right corner should now have the link to your newly created "Blog" page.
 
+<img src="{{ "/images/part-3-website.png" | prepend: site.baseurl }}"/>
+
 If you want to add new pages, follow the same process. Create a new file (for example, `cats.html`) by duplicating one of the existing pages in your project folder, make sure it has a defined title, layout and permalink in the YAML part between triple-dashed lines, and then add any content you want using HTML.
 
 # What did you learn?

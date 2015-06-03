@@ -26,6 +26,8 @@ Save `index.html`, refresh the website in your browser, and you should see the i
 
 This tag will only display a cat photo on your front page if you have a photo with the name `cat.jpg` in a folder named `images`. If your photo file has a different name, use that name. 
 
+<img src="{{ "/images/part-7-website.png" | prepend: site.baseurl }}"/>
+
 # Add more photos
 
 It's your turn to choose and add more photos to your website. Just reuse the `<img>` tag on any page or blog post wherever you want to display an image:

@@ -82,6 +82,8 @@ To make sure the readers know there's more than just the first paragraph to your
 
 Save, refresh, and test the new link. Pretty cool, right? You can now take a short break, you've earned it!
 
+<img src="{{ "/images/part-4-website.png" | prepend: site.baseurl }}"/>
+
 # What did you learn?
 
 You now know how to add and write new blog posts on your website. You've already learned how to add new pages, so you can now any type of content to your website.
