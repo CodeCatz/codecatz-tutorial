@@ -98,8 +98,6 @@ It's not just about looking cool though, we promise. Eventually, moving through 
 You can learn more about the Terminal in <a href="http://blog.teamtreehouse.com/introduction-to-the-mac-os-x-command-line" target="_blank">this blog post</a>.
 </div>
 
-// TODO: add Windows version
-
 ## Step 2: Install Ruby
 
 Ruby is a programming language. Don't worry, you won't have to learn it just yet, we just need to make sure it's installed so we can use Jekyll. 
