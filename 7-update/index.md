@@ -46,8 +46,13 @@ Once you're happy with the new images on your website, it's time to sync the cha
 
 Open the GitHub app on your computer again and go through both of the steps you've learned in <a href="{{ "/6-publish#syncing-step-1-review-and-commit-your-changes" | prepend: site.baseurl }}">Part 6</a>. To recap:
 
-- you first need to review and commit the changes you've made in the **Changes section** of the app
-- and then click on the **Sync button** in the top right corner to push your Unsynced changes to your repository on GitHub, which will automatically update the online version of your website.
+<ol>
+	<li>You first need to review the changes you've made in the <strong>Changes section</strong> of the app (make sure there aren't any changes you don't want to publish here - it happens!)</li>
+	<li>After you've checked the changes in all files, write a Summary for your commit and click the Commit to master button, so your changes will be moved to the <strong>Unsynced section</strong></li>
+	<li>Now you can click on the <strong>Sync button</strong> in the top right corner to push your Unsynced changes to your repository on GitHub, which will automatically update the online version of your website.</li>
+</ol>
+
+<img src="{{ "/images/github-mac-3-update-image.png" | prepend: site.baseurl }}"/>
 
 After the sync, your website at **username.github.io** should also have the photos you've just added. 
 
