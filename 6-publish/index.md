@@ -16,6 +16,8 @@ Note: You can skip this part and come back to it later.
 
 GitHub is a website where people from all over the world share and work together on big and small coding projects. In other words, GitHub is a super cool website where you can share your projects for free. This allows other users to learn from your code and even suggest improvements.
 
+<img src="{{ "/images/female_coder_octocat.png" | prepend: site.baseurl }}"/>
+
 A lot of GitHub users are professional programmers, but there's also a lot of people just like you, who are just starting to learn coding. Looking at other people's code and playing with it on your own computer is a great way to improve your programming skills or find solutions for your coding problems. Just make sure to add attribution if you use other people's code in your projects!
 
 We also like GitHub because it plays really nice with Jekyll, the tool we're using to build your website. In fact, GitHub likes Jekyll so much that it allows you publish your Jekyll projects online for free, through a service called <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
