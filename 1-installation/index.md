@@ -134,9 +134,17 @@ To make sure we're all using the same tools, let's go ahead and install <a href=
 
 ## Step 5: Install GitHub
 
-This app will make it easier to publish your website online at the end of the day.
+This app will make it easier to publish your website online at the end of the day, or any other time, for that matter.
 
-// TODO: install links and instructions
+Just click on the appropriate link for your operating system and install the app:
+
+- <a href="https://windows.github.com" target="_blank">Windows</a> (Windows 7, 8 & 8.1)
+- <a href="https://mac.github.com/" target="_blank">Mac OS X</a> (OS X 10.9 or later)
+
+Need more information about the application, maybe some help using it? These links should cover that:
+
+- <a href="https://windows.github.com/help.html" target="_blank">Windows version</a>
+- <a href="https://mac.github.com/help.html" target="_blank">Mac OS X version</a>
 
 # What did you learn?
 
