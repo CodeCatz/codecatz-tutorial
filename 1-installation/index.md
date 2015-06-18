@@ -122,6 +122,12 @@ Next, we need to install everything you need to build your website and publish i
 
 	$ gem install github-pages
 
+You computer might complain that you're not allowed to install the gem, claiming you don't have write permissions, try adding the `sudo` command:
+
+    $ sudo gem install github-pages
+
+Lets not forget the mandatory <a href="http://xkcd.com/149/">sudo xkcd comic</a>.
+
 ## Step 4: Install a text editor
 
 A text editor makes it easier to edit your website's files and can also help you edit your code by providing helpful suggestions. Pretty cool, eh? You'll be using this a lot today.
