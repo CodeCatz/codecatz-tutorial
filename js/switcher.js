@@ -18,10 +18,8 @@ function loadOs() {
 function detectOs() {
   try {
     if (navigator.appVersion.match(/wins/i)) {
-      updateOs("wins");
       return "wins";
     } else {
-      updateOs("osx");
       return "osx";
     }
   } catch(e) {
