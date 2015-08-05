@@ -21,7 +21,15 @@
             {% assign active = 'active' %}
           {% endif %}
           {% if current_page.title %}
-          <a class="page-link {{ active }}" href="{{ current_page.url | prepend: site.baseurl }}">{{ current_page.title }}</a>
+
+          {% comment %} Devnote: to style completed pages, use class "done" {% endcomment %}
+
+          <a class="page-link {{ active }} tooltip" title="{{ current_page.title }}" href="{{ current_page.url | prepend: site.baseurl }}">
+            <span class="fa-stack paw">
+              <i class="fa fa-circle fa-stack-2x"></i>
+              <i class="fa fa-paw fa-stack-1x fa-inverse"></i>
+            </span>
+          </a>
           {% endif %}
         {% endfor %}
       </div>

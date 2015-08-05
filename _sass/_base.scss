@@ -207,6 +207,32 @@ pre {
     }
 }
 
+/**
+ * Header tracking icons
+ */
+
+.paw {
+    .fa-circle {
+        color: $grey-color-light;
+        text-shadow: 0px 1px 0px $grey-color-dark-shadow;
+    }
+
+    .fa-paw {
+        color: lighten($grey-color-dark, 20%);
+    }
+
+    a.done & {
+        .fa-circle {
+        color: $brand-color;
+        text-shadow: 0px 1px 0px darken($brand-color, 40%);
+        }
+
+        .fa-paw {
+            color: $grey-color-dark;
+        }
+    }
+}
+
 
 /**
  * Tutorial elements
