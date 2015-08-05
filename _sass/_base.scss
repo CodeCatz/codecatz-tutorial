@@ -79,15 +79,35 @@ li {
 /**
  * Headings
  */
-h2, h3, h4, h5, h6 {
-    font-weight: 300;
-}
+
+ h1, h2, h3, h4 {
+    color: darken($grey-color-dark, 10%);
+    line-height: 1.2;
+ } 
 
 h1 {
     font-size: 36px;
-    font-weight: 500;
+    font-family: $headlines-font-family;
+    font-weight: $headlines-font-weight;
 }
 
+h2 {
+    font-size: 32px;
+    font-family: $headlines-font-family;
+    font-weight: $headlines-font-weight;
+}
+
+h3 {
+    font-size: 28px;
+    font-family: $headlines-font-family;
+    font-weight: $headlines-font-weight;
+}
+
+h4 {
+    font-size: 24px;
+    font-family: $headlines-font-family;
+    font-weight: $headlines-font-weight;
+}
 
 /**
  * Links
@@ -158,8 +178,8 @@ pre {
  * Wrapper
  */
 .wrapper {
-    max-width: -webkit-calc(800px - (#{$spacing-unit} * 2));
-    max-width:         calc(800px - (#{$spacing-unit} * 2));
+    max-width: -webkit-calc(600px - (#{$spacing-unit} * 2));
+    max-width:         calc(600px - (#{$spacing-unit} * 2));
     margin-right: auto;
     margin-left: auto;
     padding-right: $spacing-unit;
