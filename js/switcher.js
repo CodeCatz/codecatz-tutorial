@@ -1,24 +1,27 @@
-function saveOs(os) {
-  $.cookie("os", os, { expires: 1825, path: '/' }); // expires in 5 years
+function updateOs(os) {
+  localStorage.setItem('os',os);
 }
 
 function loadOs() {
-  var osFromCookie = $.cookie("os");
-  if(osFromCookie) {
-    $(".link-" + osFromCookie).click();
+  var storedOs = localStorage.getItem('os');
+  if(storedOs) {
+    $(".link-" + storedOs).click();
   } else if(detectOs()) {
     $(".link-" + detectOs()).click();
   } else {
     $(".link-wins").click();
   }
-  return osFromCookie;
+  console.log(storedOs);
+  return storedOs;
 }
 
 function detectOs() {
   try {
     if (navigator.appVersion.match(/wins/i)) {
+      updateOs("wins");
       return "wins";
     } else {
+      updateOs("osx");
       return "osx";
     }
   } catch(e) {
@@ -31,7 +34,7 @@ function initializeOsSwitchers() {
 
   $(".link-wins").click(function(event) {
     event.preventDefault();
-    saveOs("wins");
+    updateOs("wins");
     $(".link-wins").addClass("active").siblings().removeClass("active");
     $(".os-switch").children(".osx").hide();
     $(".os-switch").children(".wins").show();
@@ -39,7 +42,7 @@ function initializeOsSwitchers() {
 
   $(".link-osx").click(function(event) {
     event.preventDefault();
-    saveOs("osx");
+    updateOs("osx");
     $(".link-osx").addClass("active").siblings().removeClass("active");
     $(".os-switch").children(".wins").hide();
     $(".os-switch").children(".osx").show();
