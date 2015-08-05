@@ -23,13 +23,15 @@ Press the Enter key on your keyboard, and your Terminal should tell you your cur
 	$ whoami
 	codecat
 
-<div class="hint">
-Hint: don't worry if you make a typo when writing commands into the Terminal. It happens <em>all the time</em>, even to professional programmers. Usually, the Terminal will complain about the command not being found or something similar. Just retype the command again, eventually you'll get it right.
+<div class="hint os-switch">
+Hint: don't worry if you make a typo when writing commands into the <span class="osx">Terminal</span><span class="wins">Command Prompt</span>. It happens <em>all the time</em>, even to professional programmers. Usually, the <span class="osx">Terminal</span><span class="wins">Command Prompt</span> will complain about the command not being found or something similar. Just retype the command again, eventually you'll get it right.
 </div>
 
 ### Move to different folders using text commands
 
-You probably use Finder to move from folder to folder and find different files on your computer. You can do the same in your Terminal by using text commands, no clicking required!
+<div class="os-switch">
+You probably use <span class="osx">Finder</span><span class="wins">File Explorer</span> to move from folder to folder and find different files on your computer. You can do the same in your <span class="osx">Terminal</span><span class="wins">Command Prompt</span> by using text commands, no clicking required!
+</div>
 
 First, let's try a command that can show us the name and path of the current folder (also called directory):
 
@@ -42,7 +44,14 @@ First, let's try a command that can show us the name and path of the current fol
 
 Now, to see a list of files and folders inside the current directory, use the following command:
 
-	$ ls
+<div class="os-switch">
+<div class="osx">
+<pre><code>$ ls</code></pre>
+</div>
+<div class="wins">
+<pre><code>&gt; dir</code></pre>
+</div>
+</div>
 
 `ls` is a command that "**l**i**s**ts" files in the current directory. The result should look something like this:
 

@@ -32,6 +32,7 @@ h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 ul, ol, dl, figure,
 %vertical-rhythm {
+    margin-top: $spacing-unit / 2;
     margin-bottom: $spacing-unit / 2;
 }
 
@@ -226,4 +227,16 @@ pre {
     font-size: 0.9em;
     padding: 1em;
     background-color: #FAEBD7;
+}
+
+.os-picker {
+    text-align: right;
+    font-size: 0.8em;
+    margin-bottom: 0.5em;
+    .active {
+        color: $text-color;
+        &:hover {
+            text-decoration: none;
+        };
+    }
 }
