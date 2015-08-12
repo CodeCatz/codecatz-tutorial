@@ -8,9 +8,11 @@ You'll create your website with a framework called <a href="http://jekyllrb.com"
 
 Before we can get started, let's take a few minutes to get familiar with an app that allows you to command your computer. We'll also install a few tools on your computer that will make your work easier.
 
-## Step 1: Get to know the Terminal
+## Get to know the Terminal
 
-First, find and open an app called Terminal on your computer. It's usually in `/Applications/Utilities`. It looks like something from a sci-fi movie, but don't be intimidated by its looks.
+<img src="{{ "/images/terminal-icon-mac.png" | prepend: site.baseurl }}" class="icon"/> First, find and open an app called Terminal on your computer. It's usually in the `/Applications/Utilities` folder or you can use Spotlight Search to find it. 
+
+The Terminal looks like something from a sci-fi movie, but don't be intimidated by its looks.
 
 <img src="{{ "/images/terminal-mac.png" | prepend: site.baseurl }}"/>
 
@@ -29,7 +31,7 @@ Hint: don't worry if you make a typo when writing commands into the <span class=
 
 ### Move to different folders using text commands
 
-<div class="os-switch">
+<div class="os-switch show">
 You probably use <span class="osx">Finder</span><span class="wins">File Explorer</span> to move from folder to folder and find different files on your computer. You can do the same in your <span class="osx">Terminal</span><span class="wins">Command Prompt</span> by using text commands, no clicking required!
 </div>
 
@@ -107,56 +109,60 @@ It's not just about looking cool though, we promise. Eventually, moving through 
 You can learn more about the Terminal in <a href="http://blog.teamtreehouse.com/introduction-to-the-mac-os-x-command-line" target="_blank">this blog post</a>.
 </div>
 
-## Step 2: Install Ruby
 
-Ruby is a programming language. Don't worry, you won't have to learn it just yet, we just need to make sure it's installed so we can use Jekyll. 
 
-Windows: use <a href="http://rubyinstaller.org/downloads/" target="_blank">RubyInstaller</a> 
+## Install Ruby
 
-On a Mac, you probably already have Ruby installed (see below to check your installation). If not, // TODO !!!
+Ruby is a programming language. Don't worry, you won't have to learn it just yet, we just need to make sure it's installed so we can use Jekyll.
 
-// TODO: which Ruby? 2.1.6 or 2.2.2? 
+<div class="os-switch show">
+<div class="osx">
+	<p>On a Mac, you probably already have Ruby installed. See the instructions below for more information on how to check your Ruby installation.</p>
+	<p>You can find additional installation instructions on the <a href="https://www.ruby-lang.org/en/documentation/installation/#homebrew" target="_blank">Ruby website</a> (but this shouldn't be necessary).</p>
+</div>
+<div class="wins">
+	<p>On a Windows computer, use <a href="http://rubyinstaller.org/downloads/" target="_blank">RubyInstaller</a> to install <strong>Ruby 2.2.2</strong> on your computer.</p>
+</div>
+</div>
 
 ### Checking your Ruby installation
 
-Now that you've become familiar with Terminal, you can always run the following command to check whether Ruby is installed and its version:
+Now that you've become familiar with <span class="os-switch"><span class="osx">Terminal</span><span class="wins">Command Prompt</span></span>, you can always run the following command to check whether Ruby is installed and its version:
 
 	$ ruby --version  
 
 If you get a line that starts with `ruby`, followed by version number that is `1.9.3` or greater (for example, `2.1.6`, `2.2.2`), you're good to go!
 
-## Step 3: Install the GitHub Pages gem
+## Install the GitHub Pages gem
 
-Next, we need to install everything you need to build your website and publish it online by the end of the day. Just type in the following command in your Terminal:
+Next, we need to install everything you need to build your website and publish it online by the end of the day. Just type in the following command in your <span class="os-switch"><span class="osx">Terminal</span><span class="wins">Command Prompt</span></span>:
 
 	$ gem install github-pages
 
-## Step 4: Install a text editor
+If you get an error about having a permission denied error, you can also try:
+
+	$ sudo gem install github-pages
+
+
+
+## Install a text editor
 
 A text editor makes it easier to edit your website's files and can also help you edit your code by providing helpful suggestions. Pretty cool, eh? You'll be using this a lot today.
 
-To make sure we're all using the same tools, let's go ahead and install <a href="http://www.sublimetext.com/2" target="_blank">Sublime Text 2</a> for your operating system:
+To make sure we're all using the same tools, let's go ahead and install <a href="http://www.sublimetext.com/2" target="_blank">Sublime Text 2</a> (direct download link for <span class="os-switch"><span class="osx"><a href="http://c758482.r82.cf2.rackcdn.com/Sublime%20Text%202.0.2.dmg" target="_blank">Mac OS X</a></span><span class="wins"><a href="http://c758482.r82.cf2.rackcdn.com/Sublime%20Text%202.0.2%20Setup.exe" target="_blank">Windows</a> or <a href="http://c758482.r82.cf2.rackcdn.com/Sublime%20Text%202.0.2%20x64%20Setup.exe" target="_blank">Windows 64 bit</a></span></span>).
 
-- <a href="http://c758482.r82.cf2.rackcdn.com/Sublime%20Text%202.0.2%20Setup.exe" target="_blank">Windows</a> or <a href="http://c758482.r82.cf2.rackcdn.com/Sublime%20Text%202.0.2%20x64%20Setup.exe" target="_blank">Windows 64 bit</a>
-- <a href="http://c758482.r82.cf2.rackcdn.com/Sublime%20Text%202.0.2.dmg" target="_blank">Mac OS X</a> (OS X 10.6 or later required)
-- <a href="http://c758482.r82.cf2.rackcdn.com/Sublime%20Text%202.0.2.tar.bz2" target="_blank">Linux 32 bit</a> or <a href="http://c758482.r82.cf2.rackcdn.com/Sublime%20Text%202.0.2%20x64.tar.bz2" target="_blank">Linux 64 bit</a>
+## Install GitHub Desktop
 
-## Step 5: Install GitHub
+<p><img src="{{ "/images/github-icon-mac.png" | prepend: site.baseurl }}" class="icon"/> This app will make it easier to publish your website online at the end of the day, or any other time, for that matter.</p>
 
-This app will make it easier to publish your website online at the end of the day, or any other time, for that matter.
+<div class="os-switch">
+<div class="osx">Visit <a href="https://mac.github.com/" target="_blank">this page</a> to install the app on your Mac (OS X 10.9 or later). There's also a <a href="https://mac.github.com/help.html" target="_blank">help page</a> if you'll ever need more information about the app and hints about how to use it.</div>
+<div class="wins">Visit <a href="https://windows.github.com" target="_blank">this page</a> to install the app on your Windows computer. There's also a <a href="https://windows.github.com/help.html" target="_blank">help page</a> if you'll ever need more information about the app and hints about how to use it.</div>
 
-Just click on the appropriate link for your operating system and install the app:
-
-- <a href="https://windows.github.com" target="_blank">Windows</a> (Windows 7, 8 & 8.1)
-- <a href="https://mac.github.com/" target="_blank">Mac OS X</a> (OS X 10.9 or later)
-
-Need more information about the application, maybe some help using it? These links should cover that:
-
-- <a href="https://windows.github.com/help.html" target="_blank">Windows version</a>
-- <a href="https://mac.github.com/help.html" target="_blank">Mac OS X version</a>
+</div>
 
 # What did you learn?
 
-Granted, this part of the tutorial wasn't very interesting, but you did install everything we'll need later on and learned the basics of using the Terminal.
+Granted, this part of the tutorial wasn't very interesting, but you did install everything we'll need later on and learned the basics of using the <span class="os-switch"><span class="osx">Terminal</span><span class="wins">Command Prompt</span></span>.
 
 In <a href="{{ "/2-new-project" | prepend: site.baseurl }}">Part 2</a>, you'll learn how to set up a new Jekyll project.
