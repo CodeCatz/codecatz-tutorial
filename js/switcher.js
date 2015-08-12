@@ -27,8 +27,6 @@ function detectOs() {
 }
 
 function initializeOsSwitchers() {
-  $(".os-switch.show").before("<div class='os-picker'>Your operating system: <a href='#' class='link-wins'>Windows</a> | <a href='#' class='link-osx'>OS X</a></div>");
-
   $(".link-wins").click(function(event) {
     event.preventDefault();
     updateOs("wins");

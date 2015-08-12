@@ -171,6 +171,31 @@
     }
 }
 
+#footer-picker {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    overflow: visible;
+    z-index: 99;
+    padding-top: 0.5em;
+    background-color: $brand-color;
+    height: 2em;
+    .os-picker {
+    font-size: 0.9em;
+    text-align: center;
+        a {
+            color: black;
+        }
+        .active {
+            color: white;
+            font-weight: 500;
+            &:hover {
+                text-decoration: none;
+            };
+        }
+    }
+}
+
 
 
 /**
