@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: tutorial
 title: "Part 2: Create a new project"
 permalink: /2-new-project/
 ---

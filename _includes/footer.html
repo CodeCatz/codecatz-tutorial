@@ -51,7 +51,7 @@
       </div>
 
       <div class="footer-col  footer-col-3">
-        <p class="text">{{ site.description }}</p>
+        <p class="text">{{ site.description }} <a href="{{ "/about" | prepend: site.baseurl }}">Read more ...</a></p>
       </div>
     </div>
 
@@ -59,7 +59,6 @@
 
 </footer>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-
-<script type="text/javascript" src="{{ "/js/jquery.tooltipster.min.js" | prepend: site.baseurl }}"></script>
-<script type="text/javascript" src="{{ "/js/jquery.scripts.js" | prepend: site.baseurl }}"></script>
+<div id="footer-picker">
+  <div class='os-picker'>Your operating system: <a href='#' class='link-wins'><i class="fa fa-windows"></i> Windows</a> | <a href='#' class='link-osx'><i class="fa fa-apple"></i> OS X</a></div>
+</div>

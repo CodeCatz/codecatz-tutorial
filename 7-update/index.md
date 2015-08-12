@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: tutorial
 title: "Part 7: Add some images and update your website"
 permalink: /7-update/
 ---

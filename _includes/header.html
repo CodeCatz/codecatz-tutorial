@@ -11,7 +11,7 @@
       </a>
 
       <div class="trigger">
-        {% assign all_pages = site.pages | sort:"title" %}
+        {% assign all_pages = site.pages | sort:"title" | where: "layout", "tutorial" %}
         {% for current_page in all_pages %}
           {% assign active = nil %}
           {% if page.url == current_page.permalink %}
