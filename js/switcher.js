@@ -11,7 +11,6 @@ function loadOs() {
   } else {
     $(".link-wins").click();
   }
-  console.log(storedOs);
   return storedOs;
 }
 
