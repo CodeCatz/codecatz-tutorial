@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: tutorial
 title: "Part 3: Add and edit pages"
 permalink: /3-pages/
 ---

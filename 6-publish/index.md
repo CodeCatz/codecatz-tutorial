@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: tutorial
 title: "Part 6: Publish your website online"
 permalink: /6-publish/
 ---

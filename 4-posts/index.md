@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: tutorial
 title: "Part 4: Add and edit blog posts"
 permalink: /4-posts/
 ---

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: tutorial
 title: "Part 5: Make your website pretty"
 permalink: /5-design/
 ---

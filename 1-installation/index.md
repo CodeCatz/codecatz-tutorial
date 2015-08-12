@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: tutorial
 title: "Part 1: Let's get your computer ready!"
 permalink: /1-installation/
 ---
