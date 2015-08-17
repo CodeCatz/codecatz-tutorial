@@ -47,8 +47,7 @@ img {
 }
 
 .icon {
-    float: left;
-    margin-right: 1em;
+
 }
 
 
@@ -114,6 +113,16 @@ h4 {
     font-weight: $headlines-font-weight;
 }
 
+h5 {}
+
+h6 {
+    font-size: 1em;
+    font-weight: 300;
+    font-family: "Open Sans", Arial, sans-serif;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
 /**
  * Links
  */
