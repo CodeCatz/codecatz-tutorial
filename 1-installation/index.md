@@ -161,8 +161,8 @@ To make sure we're all using the same tools, let's go ahead and install <a href=
 
 </div>
 
-# What did you learn?
-
+<div class="recap">
 Granted, this part of the tutorial wasn't very interesting, but you did install everything we'll need later on and learned the basics of using the <span class="os-switch"><span class="osx">Terminal</span><span class="wins">Command Prompt</span></span>.
+</div>
 
 In <a href="{{ "/2-new-project" | prepend: site.baseurl }}">Part 2</a>, you'll learn how to set up a new Jekyll project.

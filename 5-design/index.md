@@ -6,7 +6,7 @@ permalink: /5-design/
 
 In <a href="{{ "/4-posts" | prepend: site.baseurl }}">Part 4</a>, you learned how to add new content to the blog on your website. Now that you know how to add different types of content, let's take a look at how you can make your website truly your own with your favorite colors and other design improvements.
 
-# CSS, the design language of the web
+## CSS, the design language of the web
 
 In previous parts, you learned the basics of HTML. We called HTML the language of the web, which is true, as it helps us define the content and structure of websites. When we want to style various HTML elements, we use another language, CSS. 
 
@@ -22,13 +22,13 @@ If you open the file `css/main.scss`, you'll see a list of various style definit
 
 If you wanted to add a new CSS file from somewhere else, you'd have to use the `<link>` tag with the right path in the file `_includes/head.html`. The order in which stylesheet files are linked in the website head is important. You should include the most general files fist, and specific files that override general styles later (we'll see an example of this later on).
 
-## SASS? SCSS? CSS?
+### SASS? SCSS? CSS?
 
 You might have noticed that the design files we've mentioned so far end with `.scss` and not `.css`. And why is one folder named `css` and the other `_sass`?
 
 CSS is the design language of the web, but it can be difficult to write and maintain on large website. This is where <a href="http://sass-lang.com/" target="_blank">SASS</a> comes in. SASS is a CSS extension language, which simply means that it makes working with CSS much easier. It allows us to define our favorite color once and use it as many times as we want for different elements. All the `.scss` files you see in your Jekyll project can take advantage of all the superpowers SASS has to offer.
 
-# CSS basics
+## CSS basics
 
 But don't worry, defining styles is similar in both CSS and SASS. The general rule is this:
 
@@ -48,7 +48,7 @@ Depending on the element we're styling, we can change different properties. For 
 Don't worry, you don't have to memorize all of them, you'll soon remember those that are most commonly used and Google the rest (no kidding, we all do this!).
 
 
-## Defining custom CSS classes
+### Defining custom CSS classes
 
 Often, you don't want to change the style of all elements, but just a certain group that has a certain role on the page. In this case, we can add a custom class to a HTML element. Usually we do this to `<div>` elements that are used for blocks of content. 
 
@@ -68,7 +68,7 @@ This is similar to what we did before with the `h1` element, but because "warnin
 
 You can reuse this class anywhere on the page. All the blocks with this class will be displayed red.
 
-# Change the main color of your website
+## Change the main color of your website
 
 Let's put what you've learned about CSS into practice. Open the file `css/main.scss`, which begins with a list of variables, which are basically settings that can be reused in all design files.
 
@@ -94,7 +94,7 @@ Before we move to other files, let's just add another line to the `css/main.scss
 
 You can add this after the `$base-font-family:` line. You can use this approach whenever you want to add general website variables that you want to reuse. Just make sure to use variable names that don't use spaces, you can separate multiple words with dashes (the same goes for longer class names).
 
-# Change the color of headings
+## Change the color of headings
 
 Let's use the same color the links use for all headings on the website. Open the file `_sass/_base.scss` and find the section:
 
@@ -117,7 +117,7 @@ For the font, we used the variable `$heading-family` that we defined earlier on 
 
 Don't forget to save the file and refresh the website in your browser whenever you make any changes you want to see.
 
-# Change the website header color
+## Change the website header color
 
 The website looks much better with more color. Let's now use the same color for the header background.
 
@@ -167,13 +167,13 @@ Save, refresh. Don't like what you see? Feel free to play around and experiment 
 
 <img src="{{ "/images/part-5a-website.png" | prepend: site.baseurl }}"/>
 
-# Bonus points: meet Bootstrap
+## Bonus points: meet Bootstrap
 
 If you want to learn a cool trick that can help you make prettier website designs faster, we also want to show you a little tool called <a href="http://getbootstrap.com">Bootstrap</a>. Feel free to ship this part and return back to it at a later time. 
 
 Bootstrap is a framework that comes with a wide range of pre-defined styles for common website elements like buttons, web forms and more. It's very popular among web developers. It also makes it easy to build websites that work well on a wide range of devices, from desktops to smaller screens on phones (you might have heard this called <a href="http://www.w3schools.com/html/html_responsive.asp" target="_blank">responsive web design</a>).
 
-## Add Bootstrap to your website
+### Add Bootstrap to your website
 
 There are different ways to add Bootstrap to your website. You can copy the latest SASS version to you `_sass` folder (hint: remember the part about including any new styles you add in the main style file?), but we'll choose the faster way and link to an online version. You can find out more about other approaches on the <a href="http://getbootstrap.com/getting-started/" target="_blank">Bootstrap page</a>.
 
@@ -184,7 +184,7 @@ But let's just go with the easy way of adding a link. Open the file `_includes/h
 
 If you save the file and refresh your website, you'll only notice minor differences. Let's add some Bootstrap elements to our page!
 
-## Add a Glyphicon
+### Add a Glyphicon
 
 Find an icon you like on the <a href="http://getbootstrap.com/components/" target="_blank">Bootstrap page</a> and copy its class names somewhere. For example, if you like the leaf icon, you're going to need the class names `glyphicon glyphicon-leaf`. 
 
@@ -200,7 +200,7 @@ You should now have a line like this:
 
 Save, refresh, enjoy your new icon. Have fun adding more icons to other parts of the website, perhaps to the navigation menu?
 
-## Get to know the Bootstrap grid system
+### Get to know the Bootstrap grid system
 
 One of the really cool things that Bootstrap makes easy is displaying content in columns that adjust to the width of the browser. On a desktop, you may want to display your content in three or four columns, but you want to shrink all that down into one on a mobile phone screen.
 
@@ -231,8 +231,8 @@ And all you need to make your content responsive with bootstrap is define rows (
 
 <img src="{{ "/images/part-5b-website.png" | prepend: site.baseurl }}"/>
 
-# What did you learn?
-
+<div class="recap">
 You're learned the basics of CSS, the design language of the web. This allowed you to add more color to the website. You also know about Bootstrap, a cool tool that can make designing website easier and faster.
+</div>
 
 In <a href="{{ "/6-publish" | prepend: site.baseurl }}">Part 6</a>, you'll learn how to publish your pretty new website online, so you can share it with the whole world.

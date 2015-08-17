@@ -6,7 +6,7 @@ permalink: /2-new-project/
 
 In <a href="{{ "/1-installation" | prepend: site.baseurl }}">Part 1</a>, you installed everything we'll need to create a new Jekyll project. With a new Jekyll project, you'll instantly get the basic elements for your new website.
 
-# Start a new project
+## Start a new project
 
 You will only have to do start a new project once. In the Terminal, move to a folder, where you want to save your website. 
 
@@ -26,7 +26,7 @@ This command is made out of three parts. `jekyll` lets the Terminal know that we
 
 For example, if you wanted to create a website about cats versus dogs, you would use the command `jekyll new cats-vs-dogs`.
 
-# Visit your first Jekyll website
+## Visit your first Jekyll website
 
 If you installed Jekyll correctly and typed the command to start a new project correctly, you should now have a new folder `my-website`.
 
@@ -65,7 +65,7 @@ After you've explored the website, go back to the Terminal. Press the Control an
 Hint: remember this part, so you can visit your website on your own later on. Remember to run <code>jekyll serve</code> from the Terminal inside the folder of your Jekyll project (use <code>pwd</code> to check whether you're in the right folder).
 </div>
 
-# Get to know your website
+## Get to know your website
 
 In order to edit the website, you'll need a text editor. You should already have Sublime 2 installed on your computer (if not, go back to <a href="{{ "/1-installation/#step-4-install-a-text-editor" | prepend: site.baseurl }}">Part 1</a>). Once you open Sublime, use the File > Open menu to find and open your project directory.
 
@@ -83,7 +83,7 @@ These are the main folders and files you should see:
 - `_config.yml` file: this is where the main settings for your website are saved. 
 - `index.md` and `about.md`: these are the two initial pages Jekyll creates. `index.md` is the first page you see when you open the website, while `about.md` is the page you see when you click on the About link on the website.
 
-# Customize the text on the front page
+## Customize the text on the front page
 
 Let's start making this website your own. In Sublime, open the `_config.yml` file in your project, and replace the title, email, and description with your own content.
 
@@ -111,8 +111,8 @@ Once you add your own text, save the file in Sublime (hint: Cmd + S is the keybo
 Hint: make sure Jekyll is running in the Terminal (remember <code>jekyll serve</code>?). If there's anything wrong with the code, the Terminal will also show you potential errors, so check your Terminal window whenever the website doesn't load.
 </div>
 
-# What did you learn?
-
+<div class="recap">
 Wow, you have your own website now! You created it by starting a new Jekyll project through the Terminal (`jekyll new my-website`) and then running the website with `jekyll serve`. You were then able to open the website in your web browser, and edit the title, email and description on the front page. 
+</div>
 
 In <a href="{{ "/3-pages" | prepend: site.baseurl }}">Part 3</a>, you'll learn more about editing the content of pages and basics of HTML, the language of the web.

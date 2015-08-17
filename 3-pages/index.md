@@ -6,7 +6,7 @@ permalink: /3-pages/
 
 In <a href="{{ "/2-new-project" | prepend: site.baseurl }}">Part 2</a>, you created your first Jekyll website. You already changed some of the text that appears on the front page, now it's time to learn more about editing and adding new pages to your website.
 
-# Edit the front page of your website
+## Edit the front page of your website
 
 In Sublime, open the file `index.html`. 
 
@@ -20,7 +20,7 @@ In this case, the YAML part is pretty simple. The only thing we define for this 
 
 Don't worry if this sounds confusing, it will start making sense as we go along.
 
-## HTML, the language of web
+### HTML, the language of web
 
 The second part of `index.html` is more interesting. It's mainly written in HTML (HyperText Markup Language):
 
@@ -73,13 +73,13 @@ Let's add some new HTML content. In `index.html`, add the following lines after 
 
 Save the file, refresh the website in your web browser. You should see the new text. Feel free to add more content about yourself on the page.
 
-## Explore any website in the world
+### Explore any website in the world
 
 Now that you know a bit about HTML, you can start exploring how other websites are built. 
 
 // TODO: expand this section with View Source, Inspect Element ...
 
-# Add a new page
+## Add a new page
 
 At the moment, you still have the section that displays blog posts on the front page of the website. We'll now create a new web page that will be used for displaying blog posts, so there's more space for other content.
 
@@ -115,8 +115,8 @@ Save all edited files (`index.html` and `blog.html`), refresh the website in you
 
 If you want to add new pages, follow the same process. Create a new file (for example, `cats.html`) by duplicating one of the existing pages in your project folder, make sure it has a defined title, layout and permalink in the YAML part between triple-dashed lines, and then add any content you want using HTML.
 
-# What did you learn?
-
+<div class="recap">
 You now know how to edit pages on your website, pretty cool! You've learned the basics of YAML and HTML and you moved some content from the front page to a new page you created.
+</div>
 
 In <a href="{{ "/4-posts" | prepend: site.baseurl }}">Part 4</a>, you'll also learn how to edit and add new blog posts.

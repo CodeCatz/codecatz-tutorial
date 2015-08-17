@@ -6,17 +6,17 @@ permalink: /7-update/
 
 In <a href="{{ "/6-publish" | prepend: site.baseurl }}">Part 6</a>, you published your website online using GitHub Pages. To make it even more interesting, you'll now learn how to add images and update your published website again.
 
-# Create a new folder for your images
+## Create a new folder for your images
 
 It's a good idea to create a new folder for your images, so they don't get mixed up with the rest of your content. Go ahead an create a folder called `images` in your project folder (feel free to use Finder for this).
 
-# Add photos to you image folder
+## Add photos to you image folder
 
 Copy at least one photo you want to use on your website to this folder. You can use images you already have on your computer or download and reuse the following photo:
 
 <img src="{{ "/images/cat.jpg" | prepend: site.baseurl }}"/>
 
-# Display a photo on your front page
+## Display a photo on your front page
 
 Let's try displaying this cat (or any other photo you like) on the front page of your website. We'll use the `<img>` HTML tag to tell our website the location of our image. Open the `index.html` file and add the following line where you want the photo to appear:
 
@@ -28,7 +28,7 @@ This tag will only display a cat photo on your front page if you have a photo wi
 
 <img src="{{ "/images/part-7-website.png" | prepend: site.baseurl }}"/>
 
-# Add more photos
+## Add more photos
 
 It's your turn to choose and add more photos to your website. Just reuse the `<img>` tag on any page or blog post wherever you want to display an image:
 
@@ -40,7 +40,7 @@ Don't forget to replace the `file-name.jpg` with the actual name of the photo fi
 Your image can be placed anywhere on the page, but make sure to leave the front matter between the triple dashes at the beginning of the file as it is.
 </div>
 
-# Update your website again
+## Update your website again
 
 Once you're happy with the new images on your website, it's time to sync the changes to GitHub Pages, so everyone will be able to see your awesome photos. 
 
@@ -58,8 +58,8 @@ After the sync, your website at **username.github.io** should also have the phot
 
 You can do this every time you have new content for your website or want to change its look.
 
-# What did you learn?
-
+<div class="recap">
 Congratulations! You've built your website, learned how to add new content, made your first design changes, published it online, and now you also know how to add photos and update your website. This calls for a little (or big, we won't judge) celebration!
+</div>
 
 This is the last step of our tutorial, but we hope this is just the beginning of your learning journey. Feel free to play with your website a bit more, and don't forget to update your online version. When you're ready for more, head over to the <a href="{{ "/what-next" | prepend: site.baseurl }}">What's next?</a> section for tips on how you can keep learning amazing new website building skills. 

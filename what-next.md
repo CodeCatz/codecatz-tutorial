@@ -15,7 +15,7 @@ But the best way to learn new coding skills is to **set practical goals** (for e
 **Don't be discouraged** if the links and answers you find are full or gibberish you don't yet understand. It takes time and practice to become familiar with new concepts. Just keep playing around with your website every day, and eventually things will start making sense.
 
 
-# Ready for more programming?
+## Ready for more programming?
 
 Once you're ready for more complex projects, you can try other frameworks that allow you to build even more powerful dynamic web apps. For that, we recommend the <a href="http://guides.railsgirls.com/" target="_blank">Rails Girls</a> and <a href="http://tutorial.djangogirls.org/en/index.html" target="_blank">Django Girls</a> tutorials. The main difference between the two is that one uses Rails, a Ruby-based framework, and the other Django, a Python-based framework. 
 
