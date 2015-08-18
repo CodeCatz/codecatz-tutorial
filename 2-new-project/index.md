@@ -113,7 +113,7 @@ Hint: make sure Jekyll is running in the Terminal (remember <code>jekyll serve</
 
 <div class="recap">
 <h2>What did you learn?</h2>
-Wow, you have your own website now! You created it by starting a new Jekyll project through the Terminal (`jekyll new my-website`) and then running the website with `jekyll serve`. You were then able to open the website in your web browser, and edit the title, email and description on the front page. 
+Wow, you have your own website now! You created it by starting a new Jekyll project through the Terminal (<code>jekyll new my-website</code>) and then running the website with <code>jekyll serve</code>. You were then able to open the website in your web browser, and edit the title, email and description on the front page. 
 </div>
 
 In <a href="{{ "/3-pages" | prepend: site.baseurl }}">Part 3</a>, you'll learn more about editing the content of pages and basics of HTML, the language of the web.
