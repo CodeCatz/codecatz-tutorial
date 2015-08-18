@@ -1,8 +1,10 @@
 $( document ).ready(function() {
     $('.tooltip').tooltipster();
 
-    var test = $('.post-title').html();
-	var result = test.replace(/\:/g,':<hr />');      
+    if( $('.post-title').length ) {
+	    var test = $('.post-title').html();
+		var result = test.replace(/\:/g,':<hr />');      
 
-	$('.post-title').html(result);
+		$('.post-title').html(result);
+	}
 });

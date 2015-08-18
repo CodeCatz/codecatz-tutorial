@@ -12,7 +12,7 @@ At the moment, you awesome website lives on your computer. You can visit it in y
 Note: You can skip this part and come back to it later.
 </div>
 
-# Create your free GitHub account
+## Create your free GitHub account
 
 GitHub is a website where people from all over the world share and work together on big and small coding projects. In other words, GitHub is a super cool website where you can share your projects for free. This allows other users to learn from your code and even suggest improvements.
 
@@ -24,7 +24,7 @@ We also like GitHub because it plays really nice with Jekyll, the tool we're usi
 
 In <a href="{{ "/1-installation" | prepend: site.baseurl }}">Part 1</a>, you probably already installed GitHub's app for Mac/Windows. If not, you can do it now. And while you're waiting for the app to download, **[Sign up](https://github.com/join) for your own GitHub account** (choose the Free plan). If you already have a GitHub account, you can skip this step. Either way, make sure to remember your GitHub username.
 
-# Turn your project into a Git repository (just once)
+## Turn your project into a Git repository (just once)
 
 Once you have your GitHub account, open the GitHub app and log in with your account. Then, click on the Add icon, switch to the Add tab, and add the folder, where your website is saved (for example, `Users/codecat/Documents/Websites/my-website`). This will add and set up your project folder as a repository, which is just a fancy name for a project.
 
@@ -38,7 +38,7 @@ Your project will now appear in the left sidebar. If you right click on the name
 GitHub uses something called Git to keep track of changes in your repository (project). Don't worry about all these new words, we're just mentioning them to make Googling stuff easier and so you can come back to these parts when you want to learn more. Any by the way, GitHub also has several beginner-friendly <a href="https://guides.github.com/" target="_blank">Guides</a> you can use when you want to learn more about Git.
 </div>
 
-# Syncing step 1: review and commit your changes
+## Syncing step 1: review and commit your changes
 
 When you select your project now, you'll see a list of changes since the last commit (save) in the middle column of the app under the Changes section. When you do this for the first time, all your files will appear as changed. You can review the changes you made since the last commit in the right column.
 
@@ -52,7 +52,7 @@ Enter a Summary (a short title) for your commit and optionally a brief descripti
 When you add commits, it's good practice for the title and description to briefly describe the changes you made, so you can easily find these changes in the history.
 </div>
 
-# Syncing step 2: publish and sync with your GitHub repository
+## Syncing step 2: publish and sync with your GitHub repository
 
 Once all changes have been added to a commit (if you make additional changes, you can make a new commit), it's time to sync them with the online copy of your repository, which will be hosted on GitHub.
 
@@ -76,8 +76,9 @@ The next time you'll have changes to commit, you can just click on the Sync butt
 
 <img src="{{ "/images/github-mac-3-update.png" | prepend: site.baseurl }}"/>
 
-# What did you learn?
-
-Whew, you now actually published your website online! You set up your GitHub account, and learned how to use the GitHub app to 1) commit changes and 2) sync them to an online copy of your project (your GitHub repository). Syncing with your GitHub repository also automatically updates the public copy of your website. 
+<div class="recap">
+<h2>What did you learn?</h2>
+Whew, you now actually published your website online! You set up your GitHub account, and learned how to use the GitHub app to 1) commit changes and 2) sync them to an online copy of your project (your GitHub repository). Syncing with your GitHub repository also automatically updates the public copy of your website.
+</div>
 
 In <a href="{{ "/7-update" | prepend: site.baseurl }}">Part 7</a>, you'll add some images and update your website again.
