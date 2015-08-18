@@ -112,6 +112,7 @@ Hint: make sure Jekyll is running in the Terminal (remember <code>jekyll serve</
 </div>
 
 <div class="recap">
+<h2>What did you learn?</h2>
 Wow, you have your own website now! You created it by starting a new Jekyll project through the Terminal (`jekyll new my-website`) and then running the website with `jekyll serve`. You were then able to open the website in your web browser, and edit the title, email and description on the front page. 
 </div>
 

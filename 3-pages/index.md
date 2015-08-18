@@ -116,6 +116,7 @@ Save all edited files (`index.html` and `blog.html`), refresh the website in you
 If you want to add new pages, follow the same process. Create a new file (for example, `cats.html`) by duplicating one of the existing pages in your project folder, make sure it has a defined title, layout and permalink in the YAML part between triple-dashed lines, and then add any content you want using HTML.
 
 <div class="recap">
+<h2>What did you learn?</h2>
 You now know how to edit pages on your website, pretty cool! You've learned the basics of YAML and HTML and you moved some content from the front page to a new page you created.
 </div>
 

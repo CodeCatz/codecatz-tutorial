@@ -59,6 +59,7 @@ After the sync, your website at **username.github.io** should also have the phot
 You can do this every time you have new content for your website or want to change its look.
 
 <div class="recap">
+<h2>What did you learn?</h2>
 Congratulations! You've built your website, learned how to add new content, made your first design changes, published it online, and now you also know how to add photos and update your website. This calls for a little (or big, we won't judge) celebration!
 </div>
 

@@ -85,6 +85,7 @@ Save, refresh, and test the new link. Pretty cool, right? You can now take a sho
 <img src="{{ "/images/part-4-website.png" | prepend: site.baseurl }}"/>
 
 <div class="recap">
+<h2>What did you learn?</h2>
 You now know how to add and write new blog posts on your website. You've already learned how to add new pages, so you can now any type of content to your website.
 </div>
 

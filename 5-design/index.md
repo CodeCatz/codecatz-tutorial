@@ -232,6 +232,7 @@ And all you need to make your content responsive with bootstrap is define rows (
 <img src="{{ "/images/part-5b-website.png" | prepend: site.baseurl }}"/>
 
 <div class="recap">
+<h2>What did you learn?</h2>
 You're learned the basics of CSS, the design language of the web. This allowed you to add more color to the website. You also know about Bootstrap, a cool tool that can make designing website easier and faster.
 </div>
 

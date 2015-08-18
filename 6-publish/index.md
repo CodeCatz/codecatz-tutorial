@@ -77,6 +77,7 @@ The next time you'll have changes to commit, you can just click on the Sync butt
 <img src="{{ "/images/github-mac-3-update.png" | prepend: site.baseurl }}"/>
 
 <div class="recap">
+<h2>What did you learn?</h2>
 Whew, you now actually published your website online! You set up your GitHub account, and learned how to use the GitHub app to 1) commit changes and 2) sync them to an online copy of your project (your GitHub repository). Syncing with your GitHub repository also automatically updates the public copy of your website.
 </div>
 
