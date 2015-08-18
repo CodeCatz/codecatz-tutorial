@@ -8,7 +8,7 @@ In <a href="{{ "/1-installation" | prepend: site.baseurl }}">Part 1</a>, you ins
 
 ## Start a new project
 
-You will only have to do start a new project once. In the Terminal, move to a folder, where you want to save your website. 
+You will only have to do start a new project once. In the Terminal, move to a folder where you want to save your website. 
 
 For example, you might want to create a new directory called `Websites` in your existing `Documents` directory and move into the new directory. These are the commands you'd use:
 
@@ -62,7 +62,7 @@ Click around a bit. The website doesn't look like much, but it already has an Ab
 After you've explored the website, go back to the Terminal. Press the Control and C keys (not `cmd`!) on your keyboard to stop running the website. If you go back to your web browser now and refresh your website, it won't work anymore. Go back to the Terminal and run the website again with `jekyll serve`.
 
 <div class="hint">
-Hint: remember this part, so you can visit your website on your own later on. Remember to run <code>jekyll serve</code> from the Terminal inside the folder of your Jekyll project (use <code>pwd</code> to check whether you're in the right folder).
+Hint: remember this part so that you can visit your website on your own later on. Remember to run <code>jekyll serve</code> from the Terminal inside the folder of your Jekyll project (use <code>pwd</code> to check whether you're in the right folder).
 </div>
 
 ## Get to know your website
@@ -89,7 +89,7 @@ Let's start making this website your own. In Sublime, open the `_config.yml` fil
 
 Make sure to only edit the text after `:`. The text after the hash sign (`#`) are comments that won't be displayed, but can help you understand what each part of the file is for.
 
-For example, these is how CodeCat edited her `_config.yml` file:
+For example, this is how CodeCat edited her `_config.yml` file:
 
 	# Site settings
 	title: CodeCat's Lair

@@ -10,7 +10,7 @@ In <a href="{{ "/2-new-project" | prepend: site.baseurl }}">Part 2</a>, you crea
 
 In Sublime, open the file `index.html`. 
 
-It's made out of two parts. The first part is written in YAML front matter, which can be used to define variables - special characteristics of the page. In order for Jekyll to understand YAML, it must be the first thing in the file and placed between triple-dashed lines, just like in the `index.html` file:
+It's made out of two parts. The first part is written in YAML front matter which can be used to define variables, special characteristics of the page. In order for Jekyll to understand YAML, it must be the first thing in the file and placed between triple-dashed lines, just like in the `index.html` file:
 
 	---
 	layout: default
@@ -58,9 +58,9 @@ In the example above, the `<h1>` tag also includes an attribute: `class="page-he
 
 Some other common HTML tags are:
 
-- `p`: for defining paragraphs in text.
-- `div`: for defining blocks of content.
-- `ul`: unordered list, which includes one or more list elements (`li`) with text.
+- `p`: for defining paragraphs in text,
+- `div`: for defining blocks of content,
+- `ul`: unordered list, which includes one or more list elements (`li`) with text,
 - `a`: the tag used for creating links to other pages. This tag also has the attribute `href` for defining the link location. A <a href="http://www.google.com" target="_blank">link to Google</a> in HTML is written as:
 
 	`<a href="http://www.google.com">link to Google</a>`

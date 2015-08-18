@@ -42,7 +42,7 @@ Your image can be placed anywhere on the page, but make sure to leave the front 
 
 ## Update your website again
 
-Once you're happy with the new images on your website, it's time to sync the changes to GitHub Pages, so everyone will be able to see your awesome photos. 
+Once you're happy with the new images on your website, it's time to sync the changes to GitHub Pages so that everyone will be able to see your awesome photos. 
 
 Open the GitHub app on your computer again and go through both of the steps you've learned in <a href="{{ "/6-publish#syncing-step-1-review-and-commit-your-changes" | prepend: site.baseurl }}">Part 6</a>. To recap:
 

@@ -81,7 +81,7 @@ Now, let's make a new folder on your Desktop, using only text commands. Type in 
 
 	$ mkdir cat-folder
 
-`mkdir` is just a super short version of "**m**a**k**e **dir**ectory" and `catfolder` is the name of the folder we want to create (you could choose any other name here). 
+`mkdir` is just a super short version of "**m**a**k**e **dir**ectory" and `cat-folder` is the name of the folder we want to create (you could choose any other name here). 
 
 Now, check you Desktop and you'll see that a new folder with the name `cat-folder` just appeared! You can try and make another folder if you want.
 
