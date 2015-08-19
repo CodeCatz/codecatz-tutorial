@@ -7,4 +7,6 @@ $( document ).ready(function() {
 
 		$('.post-title').html(result);
 	}
+
+	$('img').parent().addClass('image');
 });
