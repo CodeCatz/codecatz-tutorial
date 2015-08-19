@@ -18,11 +18,11 @@ GitHub is a website where people from all over the world share and work together
 
 <img src="{{ "/images/female_coder_octocat.png" | prepend: site.baseurl }}"/>
 
-A lot of GitHub users are professional programmers, but there's also a lot of people just like you, who are just starting to learn coding. Looking at other people's code and playing with it on your own computer is a great way to improve your programming skills or find solutions for your coding problems. Just make sure to add attribution if you use other people's code in your projects!
+A lot of GitHub users are professional programmers, but there are also many people who are just starting to learn coding — just like you. Looking at other people's code and playing with it on your own computer is a great way to improve your programming skills or find solutions for your coding problems. Just make sure to add attribution if you use other people's code in your projects!
 
-We also like GitHub because it plays really nice with Jekyll, the tool we're using to build your website. In fact, GitHub likes Jekyll so much that it allows you publish your Jekyll projects online for free, through a service called <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+We also like GitHub because it plays really nice with Jekyll, the tool we're using to build your website. In fact, GitHub likes Jekyll so much that it allows you to publish your Jekyll projects online for free, through a service called <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 
-In <a href="{{ "/1-installation" | prepend: site.baseurl }}">Part 1</a>, you probably already installed GitHub's app for Mac/Windows. If not, you can do it now. And while you're waiting for the app to download, **[Sign up](https://github.com/join) for your own GitHub account** (choose the Free plan). If you already have a GitHub account, you can skip this step. Either way, make sure to remember your GitHub username.
+In <a href="{{ "/1-installation" | prepend: site.baseurl }}">Part 1</a>, you probably already installed GitHub's app for Mac/Windows. If not, you can do it now. And while you're waiting for the app to download, **[sign up](https://github.com/join) for your own GitHub account** (choose the Free plan). If you already have a GitHub account, you can skip this step. Either way, make sure to remember your GitHub username.
 
 ## Turn your project into a Git repository (just once)
 
@@ -35,7 +35,7 @@ Your project will now appear in the left sidebar. If you right click on the name
 
 
 <div class="more">
-GitHub uses something called Git to keep track of changes in your repository (project). Don't worry about all these new words, we're just mentioning them to make Googling stuff easier and so you can come back to these parts when you want to learn more. Any by the way, GitHub also has several beginner-friendly <a href="https://guides.github.com/" target="_blank">Guides</a> you can use when you want to learn more about Git.
+GitHub uses something called Git to keep track of changes in your repository (project). Don't worry about all these new words, we're just mentioning them to make Googling stuff easier and so that you can come back to these parts when you want to learn more. And by the way, GitHub also has several beginner-friendly <a href="https://guides.github.com/" target="_blank">Guides</a> you can use when you want to learn more about Git.
 </div>
 
 ## Syncing step 1: review and commit your changes
@@ -54,7 +54,7 @@ When you add commits, it's good practice for the title and description to briefl
 
 ## Syncing step 2: publish and sync with your GitHub repository
 
-Once all changes have been added to a commit (if you make additional changes, you can make a new commit), it's time to sync them with the online copy of your repository, which will be hosted on GitHub.
+Once all changes have been added to a commit (if you make additional changes, you can make a new commit), it's time to sync them with the online copy of your repository which will be hosted on GitHub.
 
 The commits that haven't yet been synced, will now be listed under the Unsynced section. When you do this for the first time, you'll see a Publish option in the top right corner of the app. 
 
@@ -62,7 +62,7 @@ The commits that haven't yet been synced, will now be listed under the Unsynced 
 
 Click the Publish icon to continue. After you do this, a window will appear, asking you for a name and description for the repository, as it will appear on GitHub.
 
-It's important to name the repository for your Jekyll website in the following format: **username.github.io** - but replace the username part with your own GitHub username. For example, if your username were *codecat*, the name of your repository would be *codecat.github.io*. Once you've changed that, click the Push Repository button.
+It's important to name the repository for your Jekyll website in the following format: **username.github.io** - but replace the username part with your own GitHub username. For example, if your username was *codecat*, the name of your repository would be *codecat.github.io*. Once you've changed that, click the Push Repository button.
 
 <img src="{{ "/images/github-mac-2-create-repo.png" | prepend: site.baseurl }}"/>
 
@@ -78,7 +78,7 @@ The next time you'll have changes to commit, you can just click on the Sync butt
 
 <div class="recap">
 <h2>What did you learn?</h2>
-Whew, you now actually published your website online! You set up your GitHub account, and learned how to use the GitHub app to 1) commit changes and 2) sync them to an online copy of your project (your GitHub repository). Syncing with your GitHub repository also automatically updates the public copy of your website.
+Whew, you now actually published your website online! You set up your GitHub account, and learned how to use the GitHub app to 1.) commit changes and 2.) sync them to an online copy of your project (your GitHub repository). Syncing with your GitHub repository also automatically updates the public copy of your website.
 </div>
 
 In <a href="{{ "/7-update" | prepend: site.baseurl }}">Part 7</a>, you'll add some images and update your website again.

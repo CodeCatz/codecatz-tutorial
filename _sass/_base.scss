@@ -46,6 +46,16 @@ img {
     vertical-align: middle;
 }
 
+.image {
+    width: 800px;
+    margin-left: -25%;
+
+    @include media-query($on-laptop) {
+        margin-left: 0;
+        width:100%;
+    }
+}
+
 .icon {
 
 }

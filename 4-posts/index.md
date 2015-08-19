@@ -49,7 +49,7 @@ Change the title, date and category to:
 Use your current date and time, of course. Save the file and refresh the website in your browser. You should see your new blog post on the Blog page.
 
 <div class="hint">
-If your website doesn't open, make sure it's still running from the Terminal.You can always go back to <a href="{{ "/2-new-project#visit-your-first-jekyll-website" | prepend: site.baseurl }}">Part 2</a> if you need a refresh on how to use <code>jekyll serve</code> and how to visit your website.
+If your website doesn't open, make sure it's still running from the Terminal.You can always go back to <a href="{{ "/2-new-project#visit-your-first-jekyll-website" | prepend: site.baseurl }}">Part 2</a> if you need a refresher on how to use <code>jekyll serve</code> and how to visit your website.
 </div>
 
 ### Write some content
@@ -86,7 +86,7 @@ Save, refresh, and test the new link. Pretty cool, right? You can now take a sho
 
 <div class="recap">
 <h2>What did you learn?</h2>
-You now know how to add and write new blog posts on your website. You've already learned how to add new pages, so you can now any type of content to your website.
+You now know how to add and write new blog posts on your website. You've already learned how to add new pages, so you can now add any type of content to your website.
 </div>
 
 In <a href="{{ "/5-design" | prepend: site.baseurl }}">Part 5</a>, you'll learn how to make your website your own by playing with its design. 
