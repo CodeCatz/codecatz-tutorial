@@ -26,13 +26,13 @@ In <a href="{{ "/1-installation" | prepend: site.baseurl }}">Part 1</a>, you pro
 
 ## Turn your project into a Git repository (just once)
 
-Once you have your GitHub account, open the GitHub app and log in with your account. Then, click on the Add icon, switch to the Add tab, and add the folder, where your website is saved (for example, `Users/codecat/Documents/Websites/my-website`). This will add and set up your project folder as a repository, which is just a fancy name for a project.
+Once you have your GitHub account, open the GitHub app. When you do this for the first time, you'll see tips for completing a tutorial. Let's skip that for now, you can also come back to the tutorial later, when you learn more about Git.
+
+What we want to do right now is tell Git that it should start tracking changes in your project. To do that, click the Add icon in the top right of the app, switch to the Add tab, and add the folder, where your website is saved (for example, `Users/codecat/Documents/Websites/my-website`). This will add and set up your project folder as a repository, which is just a fancy name for a project.
 
 <img src="{{ "/images/github-mac-0-add-repo-part.png" | prepend: site.baseurl }}"/>
 
 Your project will now appear in the left sidebar. If you right click on the name, you'll even get handy shortcuts that open your project online on GitHub (we'll make that possible in a minute) and on your computer in Finder or Terminal.
-
-
 
 <div class="more">
 GitHub uses something called Git to keep track of changes in your repository (project). Don't worry about all these new words, we're just mentioning them to make Googling stuff easier and so that you can come back to these parts when you want to learn more. And by the way, GitHub also has several beginner-friendly <a href="https://guides.github.com/" target="_blank">Guides</a> you can use when you want to learn more about Git.
@@ -40,7 +40,7 @@ GitHub uses something called Git to keep track of changes in your repository (pr
 
 ## Syncing step 1: review and commit your changes
 
-When you select your project now, you'll see a list of changes since the last commit (save) in the middle column of the app under the Changes section. When you do this for the first time, all your files will appear as changed. You can review the changes you made since the last commit in the right column.
+When you select your project now, you'll see a list of changes since the last commit (save) in the middle column of the app under the Uncommited Changes section. When you do this for the first time, all your files will appear as changed. By clicking on each of the files, you can review the changes you made in the selected file since the last commit in the right column.
 
 Before you can publish and sync changes, you first have to commit them as a package. It's good practice to do this every time you make any significant changes to the website (add a new blog post, make design changes etc).
 
@@ -56,21 +56,21 @@ When you add commits, it's good practice for the title and description to briefl
 
 Once all changes have been added to a commit (if you make additional changes, you can make a new commit), it's time to sync them with the online copy of your repository which will be hosted on GitHub.
 
-The commits that haven't yet been synced, will now be listed under the Unsynced section. When you do this for the first time, you'll see a Publish option in the top right corner of the app. 
+The commit package you just saved will now appear under the History section. When you do this for the first time, you'll see a Publish option in the top right corner of the app. 
 
 <img src="{{ "/images/github-mac-1-review-changes-sync.png" | prepend: site.baseurl }}"/>
 
-Click the Publish icon to continue. After you do this, a window will appear, asking you for a name and description for the repository, as it will appear on GitHub.
+Click the Publish icon to continue. The app will ask you to login with your GitHub account. After you do this, a window will appear, asking you for a name and description for the repository, as it will appear on GitHub.
 
 It's important to name the repository for your Jekyll website in the following format: **username.github.io** - but replace the username part with your own GitHub username. For example, if your username was *codecat*, the name of your repository would be *codecat.github.io*. Once you've changed that, click the Push Repository button.
 
 <img src="{{ "/images/github-mac-2-create-repo.png" | prepend: site.baseurl }}"/>
 
-Congratulations! Your website is now on GitHub! Go on, you can check your project's code at https://github.com/&lt;username&gt;/&lt;username&gt;.github.io (just replace the `<username>` part with your own GitHub username). You'll see all the files are the same as the files in the project on your computer.
+Congratulations! Your website is now on GitHub! Go on, you can check your project's code at https://github.com/username/username.github.io (just replace the `username` part with your own GitHub username). You'll see all the files are the same as the files in the project on your computer.
 
 <img src="{{ "/images/github-published-repo.png" | prepend: site.baseurl }}"/>
 
-In a few minutes, the website should also be available online, for anyone in the world to visit, at https://&lt;username&gt;.github.io (again, replace the username with your own username). Once the website comes online, you can send the link to your friends. 
+In a few minutes, the website should also be available online, for anyone in the world to visit, at https://username.github.io (again, replace the `username` with your own username). Once the website comes online, you can send the link to your friends. 
 
 The next time you'll have changes to commit, you can just click on the Sync button in the top right corner to upload recent changes. Your website will also be updated automatically when you do that. 
 
