@@ -150,21 +150,25 @@
     width: 100%;
     overflow: visible;
     z-index: 99;
-    padding-top: 0.5em;
+    padding-top: 0.9em;
+    padding-bottom: 0.1em;
     background-color: $brand-color;
     height: 2em;
     .os-picker {
     font-size: 0.9em;
     text-align: center;
         a {
+            padding: 5px 10px 5px 10px;
             color: black;
-        }
-        .active {
-            color: white;
-            font-weight: 500;
             &:hover {
                 text-decoration: none;
             };
+        }
+        .active {
+            border: 1px solid white;
+            border-radius: 8px;
+            color: white;
+            font-weight: 500;
         }
     }
 }
