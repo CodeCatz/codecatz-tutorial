@@ -75,9 +75,49 @@ Save the file, refresh the website in your web browser. You should see the new t
 
 ### Explore any website in the world
 
-Now that you know a bit about HTML, you can start exploring how other websites are built. 
+Now that you know a bit about HTML, you can start exploring how other websites are built. Every web browser allows you to view the pure HTML version (we call this the **source code**) of any website. 
 
-// TODO: expand this section with View Source, Inspect Element ...
+<div class="os-switch show">
+While there are differences among web browsers, try pressing the following keyboard keys while you have a webpage open in your web browser:<br/><span class="osx"><strong>Option (⌥) + Command (⌘) + U</strong></span><span class="wins"><strong>CTRL + U</strong></span>. 
+</div>
+
+
+If the keyboard shortcut above doesn't work, you can find more detailed instructions for different web browsers on <a href="https://blog.kissmetrics.com/how-to-read-source-code/" target="_blank">this page</a>. Or you can ask Google something like: *how to view website source code in (name_of_your_web_browser)*. Don't be afraid to ask Google for help when you can't remember how to do something!
+
+<!--
+
+                      _                        
+                      \`*-.                    
+                       )  _`-.                 
+                      .  : `. .                
+                      : _   '  \               
+                      ; *` _.   `*-._          
+                      `-.-'          `-.       
+                        ;       `       `.     
+                        :.       .        \    
+                        . \  .   :   .-'   .   
+                        '  `+.;  ;  '      :   
+                        :  '  |    ;       ;-. 
+                        ; '   : :`-:     _.`* ;
+               [bug] .*' /  .*' ; .*`- +'  `*' 
+                     `*-*   `*-*  `*-*'        
+
+
+               Well done, you found the hidden cat!
+
+    Web developers sometimes leave useful comments (or just silly stuff)
+    in the source code of their projects, so peeking under the hood 
+    can be a fun exercise that helps you learn how to build websites.
+
+    P.S.: We borrowed this cat from: http://www.ascii-art.de/ascii/c/cat.txt
+
+-->
+
+<div class="hint">
+Hint: Try to view the source code of this page. There's something hidden in this section of the page that you can only view in the source. Can you find it? 
+</div>
+
+Desktop web browsers also offer other tools that can help you see how a webpage works. We like using Chrome and its <a href="https://developer.chrome.com/devtools" target="_blank">Developer Tools</a>, but other web browsers have similar capabilities as well. Try exploring them when you have the time and play with the design of your favorite website. 
 
 ## Add a new page
 
