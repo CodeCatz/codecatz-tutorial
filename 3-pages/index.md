@@ -48,7 +48,7 @@ Looks confusing, but it's actually pretty simple. HTML is mainly used to define 
 
 	<h1 class="page-heading">Posts</h1>
 
-You can see the text "Posts", which is also displayed on the website. If you change this text to "Cats", the text on the website will also change. Everything else around the text is HTML. HTML tags that tell your web browser that "Posts" is a level 1 Heading. The tag for a level one heading is `<h2>` and so on.
+You can see the text "Posts", which is also displayed on the website. If you change this text to "Cats", the text on the website will also change. Everything else around the text is HTML. HTML tags that tell your web browser that "Posts" is a level 1 Heading. The tag for a level 2 heading is `<h2>` and so on.
 
 HTML tags are usually made out of two parts: the opening (`<h1>`) and closing tag (`</h2>`. The basic structure is:
 
@@ -75,7 +75,7 @@ Save the file, refresh the website in your web browser. You should see the new t
 
 ### Explore any website in the world
 
-Now that you know a bit about HTML, you can start exploring how other websites are built. Every web browser allows you to view the pure HTML version (we call this the **source code**) of any website. 
+Now that you know a bit about HTML, you can start exploring how other websites are built. Every web browser allows you to view the pure HTML version of any website. We call this version the **source code**.
 
 <div class="os-switch show">
 While there are differences among web browsers, try pressing the following keyboard keys while you have a webpage open in your web browser:<br/><span class="osx"><strong>Option (⌥) + Command (⌘) + U</strong></span><span class="wins"><strong>CTRL + U</strong></span>. 
@@ -121,7 +121,7 @@ Desktop web browsers also offer other tools that can help you see how a webpage 
 
 ## Add a new page
 
-At the moment, you still have the section that displays blog posts on the front page of the website. We'll now create a new web page that will be used for displaying blog posts, so there's more space for other content.
+Let's get back to your own website. At the moment, you still have the section that displays blog posts on the front page of the website. We'll now create a new web page that will be used for displaying blog posts, so there's more space for other content.
 
 Copy the file `about.md` and rename it to `blog.html` (make sure both files are in the same directory). Edit the YAML part of `blog.html` like this:
 
