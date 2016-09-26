@@ -22,11 +22,11 @@ A lot of GitHub users are professional programmers, but there are also many peop
 
 We also like GitHub because it plays really nice with Jekyll, the tool we're using to build your website. In fact, GitHub likes Jekyll so much that it allows you to publish your Jekyll projects online for free, through a service called <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 
-In <a href="{{ "/1-installation" | prepend: site.baseurl }}">Part 1</a>, you probably already installed GitHub's app for Mac/Windows. If not, you can do it now. And while you're waiting for the app to download, **[sign up](https://github.com/join) for your own GitHub account** (choose the Free plan). If you already have a GitHub account, you can skip this step. Either way, make sure to remember your GitHub username.
+In <a href="{{ "/1-installation" | prepend: site.baseurl }}">Part 1</a>, you probably already installed **<a href="https://desktop.github.com/">GitHub Desktop</a>** on your computer. If not, visit <a href="https://desktop.github.com/" target="_blank">this page</a> to download the app now. And while you're waiting for the app to download and install, **[sign up](https://github.com/join) for your own GitHub account** (choose the Free plan). If you already have a GitHub account, you can skip this step. Either way, make sure to remember your GitHub username.
 
 ## Turn your project into a Git repository (just once)
 
-Once you have your GitHub account, open the GitHub app. When you do this for the first time, you'll see tips for completing a tutorial. Let's skip that for now, you can also come back to the tutorial later, when you learn more about Git.
+Once you have your GitHub account, **open the GitHub Desktop app** on your computer. When you do this for the first time, you'll see tips for completing a tutorial. Let's skip that for now, you can also come back to the tutorial later, when you learn more about Git.
 
 What we want to do right now is tell Git that it should start tracking changes in your project. To do that, click the Add icon in the top right of the app, switch to the Add tab, and add the folder, where your website is saved (for example, `Users/codecat/Documents/Websites/my-website`). This will add and set up your project folder as a repository, which is just a fancy name for a project.
 
