@@ -144,22 +144,18 @@ If you get an error about having a permission denied error, you can also try:
 	$ sudo gem install github-pages
 
 
-
 ## Install a text editor
 
 A text editor makes it easier to edit your website's files and can also help you edit your code by providing helpful suggestions. Pretty cool, eh? You'll be using this a lot today.
 
-To make sure we're all using the same tools, let's go ahead and install <a href="http://www.sublimetext.com/2" target="_blank">Sublime Text 2</a> (direct download link for <span class="os-switch"><span class="osx"><a href="http://c758482.r82.cf2.rackcdn.com/Sublime%20Text%202.0.2.dmg" target="_blank">Mac OS X</a></span><span class="wins"><a href="http://c758482.r82.cf2.rackcdn.com/Sublime%20Text%202.0.2%20Setup.exe" target="_blank">Windows</a> or <a href="http://c758482.r82.cf2.rackcdn.com/Sublime%20Text%202.0.2%20x64%20Setup.exe" target="_blank">Windows 64 bit</a></span></span>).
+To make sure we're all using the same tools, let's go ahead and install **<a href="http://www.sublimetext.com/2" target="_blank">Sublime Text 2</a>** (direct download link for <span class="os-switch"><span class="osx"><a href="http://c758482.r82.cf2.rackcdn.com/Sublime%20Text%202.0.2.dmg" target="_blank">Mac OS X</a></span><span class="wins"><a href="http://c758482.r82.cf2.rackcdn.com/Sublime%20Text%202.0.2%20Setup.exe" target="_blank">Windows</a> or <a href="http://c758482.r82.cf2.rackcdn.com/Sublime%20Text%202.0.2%20x64%20Setup.exe" target="_blank">Windows 64 bit</a></span></span>).
 
 ## Install GitHub Desktop
 
-<p><img src="{{ "/images/github-icon-mac.png" | prepend: site.baseurl }}" class="icon"/> This app will make it easier to publish your website online at the end of the day, or any other time, for that matter.</p>
+<img src="{{ "/images/github-icon-mac.png" | prepend: site.baseurl }}" class="icon"/> The **GitHub Desktop app** will make it easier to publish your website online at the end of the day, or any other time, for that matter.
 
-<div class="os-switch">
-<div class="osx">Visit <a href="https://mac.github.com/" target="_blank">this page</a> to install the app on your Mac (OS X 10.9 or later). There's also a <a href="https://mac.github.com/help.html" target="_blank">help page</a> if you'll ever need more information about the app and hints about how to use it.</div>
-<div class="wins">Visit <a href="https://windows.github.com" target="_blank">this page</a> to install the app on your Windows computer. There's also a <a href="https://windows.github.com/help.html" target="_blank">help page</a> if you'll ever need more information about the app and hints about how to use it.</div>
 
-</div>
+Visit <a href="https://desktop.github.com/" target="_blank">this page</a> to install the app on your computer. There's also a <a href="https://help.github.com/desktop/" target="_blank">help page</a> if you'll ever need more information about the app and hints about how to use it.
 
 <div class="recap">
 <h2>What did you learn?</h2>

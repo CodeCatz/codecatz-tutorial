@@ -48,7 +48,7 @@ Open the GitHub app on your computer again and go through both of the steps you'
 
 <ol>
 	<li>You first need to review the changes you've made in the <strong>Uncommitted Changes</strong> section of the app (make sure there aren't any changes you don't want to publish here - it happens!)</li>
-	<li>After you've checked the changes in all files, write a Summary for your commit and click the Commit to master button, so your commit package will be moved to the <strong>History</strong> section</li>
+	<li>After you've checked the changes in all files, write a <strong>Summary</strong> for your commit and click the <strong>Commit to master</strong> button, so your commit package will be moved to the <strong>History</strong> section</li>
 	<li>Now you can click on the <strong>Sync</strong> button in the top right corner to push your latest commit to your repository on GitHub, which will automatically update the online version of your website.</li>
 </ol>
 
