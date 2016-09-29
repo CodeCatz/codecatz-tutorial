@@ -51,18 +51,14 @@ After you press enter, the output in your Terminal should look something like th
 	    Server address: http://0.0.0.0:4000/
 	  Server running... press ctrl-c to stop.
 
-That's a lot of words that basically mean one thing: your website is now running in your computer, and you can visit it in your web browser (Chrome, Safari, Firefox etc) by entering the address <a href="http://0.0.0.0:4000/" target="_blank">http://0.0.0.0:4000/</a>.
+That's a lot of words that basically mean one thing: your website is now running on your computer, and you can visit it in your web browser (Chrome, Safari, Firefox etc) by entering the address <a href="http://0.0.0.0:4000/" target="_blank">http://0.0.0.0:4000/</a>.
 
-The website should look something like this:
+The website doesn't look like much yet, but congratulations on making a website run on your computer! That's a pretty important step. Your computer is acting like a web server now, but instead of making the website available to everyone on the internet, the website can only be accessed from your local network on your computer. That's why we call it a *local server*.
 
-<img src="{{ "/images/part-2-website.png" | prepend: site.baseurl }}"/>
-
-Click around a bit. The website doesn't look like much, but it already has an About page and a blog post that you'll soon be able to edit.
-
-After you've explored the website, go back to the Terminal. Press the Control and C keys (not `cmd`!) on your keyboard to stop running the website. If you go back to your web browser now and refresh your website, it won't work anymore. Go back to the Terminal and run the website again with `jekyll serve`.
+Let's also take a look at how you can stop Jekyll from running (always a good idea when you finish your work). Go back to the Terminal and press the Control and C keys (not `cmd`!) on your keyboard to stop your local server. If you go back to your web browser now and refresh your website, it won't work anymore. Go back to the Terminal and run the website again with `jekyll serve`.
 
 <div class="hint">
-Hint: remember this part so that you can visit your website on your own later on. Remember to run <code>jekyll serve</code> from the Terminal inside the folder of your Jekyll project (use <code>pwd</code> to check whether you're in the right folder).
+Hint: remember this part so that you can visit your website on your own later on. Remember to run <code>jekyll serve</code> from the Terminal inside the folder of your Jekyll project (use <code>pwd</code> to check whether you're in the right folder if you get any errors).
 </div>
 
 ## Get to know your website
@@ -75,13 +71,13 @@ On the left side, you'll see a list of files and folders in your project. That's
 
 These are the main folders and files you should see:
 
-- `_includes` folder: this folder contains various website elements, like the footer and header that are included in the page template.
-- `_layouts` folder: this folder includes templates for different page types. If you click on the file `default.html`, you'll see lines where the head, header and footer are called in.
+<!-- - `_includes` folder: this folder contains various website elements, like the footer and header that are included in the page template.-->
+<!-- - `_layouts` folder: this folder includes templates for different page types. If you click on the file `default.html`, you'll see lines where the head, header and footer are called in. -->
 - `_posts` folder: this is where blog posts are stored. Go ahead and click on the post that's already in the folder. The text is the same as on the "Welcome to Jekyll!" post you can click on your website.
-- `_sass` and `css` folders: both of these folders are used for files that define the design of the website, written in a language called CSS. We'll learn more about design and CSS later on. 
 - `_site` folder: this is where Jekyll saves your website when you run `jekyll serve`. You'll see a lot of files with familiar names here, but don't edit them as they are erased and generated again whenever you run your website.
+- `css` folder: this folders is used for files that define the design of the website, written in a language called CSS. We'll learn more about design and CSS later on.
 - `_config.yml` file: this is where the main settings for your website are saved. 
-- `index.md` and `about.md`: these are the two initial pages Jekyll creates. `index.md` is the first page you see when you open the website, while `about.md` is the page you see when you click on the About link on the website.
+- `index.html` and `about.md`: these are the two initial pages Jekyll creates. `index.html` is the first page you see when you open the website, while `about.md` is the page you see when you click on the About link on the website.
 
 ## Customize the text on the front page
 
@@ -98,14 +94,20 @@ For example, this is how CodeCat edited her `_config.yml` file:
 	  CodeCat is a smart, 5-years old calico cat with a passion for coding. 
 	  Click around to learn more about her recent projects.
 	baseurl: "" # the subpath of your site, e.g. /blog/
-	url: "http://yourdomain.com" # the base hostname & protocol for your site
+	url: "" # the base hostname & protocol for your site
 	twitter_username: jekyllrb
 	github_username:  jekyll
 
 	# Build settings
 	markdown: kramdown
 
-Once you add your own text, save the file in Sublime (hint: Cmd + S is the keyboard shortcut for saving files), refresh your website in the web browser, and you should see your own title, email and description on the website now.
+Make sure you also delete `http://example.com` from  the line `url: ""` because your website doesn't have a public web address (URL) yet.
+
+Once you add your own text, save the file in Sublime (hint: Cmd + S is the keyboard shortcut for saving files). Usually you can see the changes just by refreshing your website in the web browsers, but you've just edited the configuration file with some important settings, so you'll probably need to stop Jekyll from running (remember: Control + C to stop and then `jekyll serve` to make it run again). After you do that, refresh your website in the web browser, and you should see your own title, email and description on the website now.
+
+The website should look something like this:
+
+<img src="{{ "/images/part-2-website.png" | prepend: site.baseurl }}"/>
 
 <div class="hint">
 Hint: make sure Jekyll is running in the Terminal (remember <code>jekyll serve</code>?). If there's anything wrong with the code, the Terminal will also show you potential errors, so check your Terminal window whenever the website doesn't load.
