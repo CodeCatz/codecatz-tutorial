@@ -10,7 +10,7 @@ In <a href="{{ "/1-installation" | prepend: site.baseurl }}">Part 1</a>, you ins
 
 You will only have to do start a new project once. In the Terminal, move to a folder where you want to save your website. 
 
-For example, you might want to create a new directory called `Websites` in your existing `Documents` directory and move into the new directory. These are the commands you'd use:
+For example, you might want to create a new folder called `Websites` in your existing `Documents` folder and move into the new folder. These are the commands you'd use:
 
 	$ cd Documents
 	$ mkdir Websites
@@ -18,7 +18,7 @@ For example, you might want to create a new directory called `Websites` in your 
 	$ pwd
 	/Users/codecat/Documents/Websites
 
-You can of course create the directory for your Jekyll project somehwere else. Just make sure to use the Terminal to move into that directory. Once you're in the right place (remember: you can always check with `pwd`), run this command:
+You can of course create the folder for your Jekyll project somehwere else. Just make sure to use the Terminal to move into that folder. Once you're in the right place (remember: you can always check with `pwd`), run this command:
 
 	$ jekyll new my-website
 
@@ -28,9 +28,9 @@ For example, if you wanted to create a website about cats versus dogs, you would
 
 ## Visit your first Jekyll website
 
-If you installed Jekyll correctly and typed the command to start a new project correctly, you should now have a new folder `my-website`.
+If you installed Jekyll correctly and typed the command to start a new project correctly, you should now have a new folder `my-website`. 
 
-In the Terminal, make sure to move into the project directory:
+In the Terminal, make sure to move into the project folder:
 
 	$ cd my-website
 
@@ -67,7 +67,7 @@ Hint: remember this part so that you can visit your website on your own later on
 
 ## Get to know your website
 
-In order to edit the website, you'll need a text editor. You should already have Sublime 2 installed on your computer (if not, go back to <a href="{{ "/1-installation/#step-4-install-a-text-editor" | prepend: site.baseurl }}">Part 1</a>). Once you open Sublime, use the File > Open menu to find and open your project directory.
+In order to edit the website, you'll need a text editor. You should already have Sublime 2 installed on your computer (if not, go back to <a href="{{ "/1-installation/#step-4-install-a-text-editor" | prepend: site.baseurl }}">Part 1</a>). Once you open Sublime, use the File > Open menu to find and open your project folder.
 
 <img src="{{ "/images/sublime-open-project.png" | prepend: site.baseurl }}"/>
 

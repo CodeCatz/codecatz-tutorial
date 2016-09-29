@@ -44,7 +44,7 @@ First, let's try a command that can show us the name and path of the current fol
 	$ pwd
 	/Users/codecat
 
-Now, to see a list of files and folders inside the current directory, use the following command:
+Now, to see a list of files and folders inside the current folder, use the following command:
 
 <div class="os-switch">
 <div class="osx">
@@ -55,7 +55,7 @@ Now, to see a list of files and folders inside the current directory, use the fo
 </div>
 </div>
 
-`ls` is a command that "**l**i**s**ts" files in the current directory. The result should look something like this:
+`ls` is a command that "**l**i**s**ts" files in the current folder. The result should look something like this:
 
 	$ ls
 	Applications
@@ -64,16 +64,16 @@ Now, to see a list of files and folders inside the current directory, use the fo
 	Downloads
 	...
 
-Now, let's move into the `Desktop` directory:
+Now, let's move into the `Desktop` folder:
 
 	$ cd Desktop
 
-`cd` stands for "**c**hange **d**irectory". You can use `pwd` to check whether you really moved into the right place. The result you should now see is:
+`cd` stands for "**c**hange **d**irectory" (directory is just another name for a folder). You can use `pwd` to check whether you really moved into the right place. The result you should now see is:
 
 	$ pwd
 	/Users/codecat/Desktop
 
-As before, you can now also display a list of files and folder on your desktop with a familiar command:
+As before, you can now also display a list of files and folders on your desktop with a familiar command:
 
 	$ ls
 
