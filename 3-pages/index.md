@@ -123,7 +123,7 @@ Desktop web browsers also offer other tools that can help you see how a webpage 
 
 Let's get back to your own website. At the moment, you still have the section that displays blog posts on the front page of the website. We'll now create a new web page that will be used for displaying blog posts, so there's more space for other content.
 
-Copy the file `about.md` and rename it to `blog.html` (make sure both files are in the same directory). Edit the YAML part of `blog.html` like this:
+Copy the file `about.md` and rename it to `blog.html` (make sure both files are in the same folder). Edit the YAML part of `blog.html` like this:
 
 	---
 	layout: page
