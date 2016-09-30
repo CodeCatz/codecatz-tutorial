@@ -28,6 +28,8 @@ Wait a minute, what's with this mysterious color code? In CSS you can use common
 
 Hex color codes start with a hashtag, followed by values for red, green, blue in hexadecimal values. Sounds complicated? Don't worry, you can easily find <a href="http://www.w3schools.com/tags/ref_colorpicker.asp" target="_blank">HEX color pickers</a> that help you find the right HEX code just for the color you want.
 
+<img src="{{ "/images/hex-colors.png" | prepend: site.baseurl }}"/>
+
 Save the style file and reload your website. You'll see that all links on the page turned into a green color! Don't like green? Use the color picker website to find a better color. <a href="http://flatuicolors.com" target="_blank">Flat UI colors</a> is another website that offers cool color pallets for your website.
 
 If you're feeling curious, try playing with `$text-color` and `$background-color` as well. It's your website, you can paint it in your favorite colors!
@@ -51,6 +53,8 @@ Next, download <a href="https://dl.dropboxusercontent.com/u/8417464/CodeCatz/min
 - `_includes` folder: this folder contains various website elements, like the footer and header that are included in the page template.
 - `_layouts` folder: this folder includes templates for different page types. If you click on the file `default.html`, you'll see lines where the head, header and footer are called in.
 - `_sass` folder: this folder includes a bunch of additional style files for the minima theme.
+
+<img src="{{ "/images/sublime-folder-structure.png" | prepend: site.baseurl }}"/>
 
 After you've copied the three folders, make sure to refresh your website and check the Terminal for any errors.
 
