@@ -10,7 +10,7 @@ Before we can get started, let's take a few minutes to get familiar with an app 
 
 ## Get to know the Terminal
 
-<img src="{{ "/images/terminal-icon-mac.png" | prepend: site.baseurl }}" class="icon"/> First, find and open an app called Terminal on your computer. It's usually in the `/Applications/Utilities` folder or you can use Spotlight Search to find it. 
+<img src="{{ "/images/terminal-icon-mac.png" | prepend: site.baseurl }}" class="text-icon"/> First, find and open an app called Terminal on your computer. It's usually in the `/Applications/Utilities` folder or you can use Spotlight Search to find it. 
 
 The Terminal looks like something from a sci-fi movie, but don't be intimidated by its looks.
 
@@ -152,7 +152,7 @@ To make sure we're all using the same tools, let's go ahead and install **<a hre
 
 ## Install GitHub Desktop
 
-<img src="{{ "/images/github-icon-mac.png" | prepend: site.baseurl }}" class="icon"/> The **GitHub Desktop app** will make it easier to publish your website online at the end of the day, or any other time, for that matter.
+<img src="{{ "/images/github-icon-mac.png" | prepend: site.baseurl }}" class="text-icon"/> The **GitHub Desktop app** will make it easier to publish your website online at the end of the day, or any other time, for that matter.
 
 
 Visit <a href="https://desktop.github.com/" target="_blank">this page</a> to install the app on your computer. There's also a <a href="https://help.github.com/desktop/" target="_blank">help page</a> if you'll ever need more information about the app and hints about how to use it.
