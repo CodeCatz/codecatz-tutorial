@@ -168,8 +168,14 @@ To make sure we're all using the same tools, let's go ahead and install **<a hre
 
 <img src="{{ "/images/github-icon-mac.png" | prepend: site.baseurl }}" class="text-icon"/> The **GitHub Desktop app** will make it easier to publish your website online at the end of the day, or any other time, for that matter.
 
-
 Visit <a href="https://desktop.github.com/" target="_blank">this page</a> to install the app on your computer. There's also a <a href="https://help.github.com/desktop/" target="_blank">help page</a> if you'll ever need more information about the app and hints about how to use it.
+
+<div class="os-switch show">
+<div class="osx"></div>
+<div class="wins">
+	<p>And finally, download and <strong>install Git</strong> from <a href="https://git-scm.com/downloads" target="_blank">this page</a>. This is also something we'll need to publish your website. You don't need to change any settings in the installer.</p>
+</div>
+</div>
 
 <div class="recap">
 <h2>What did you learn?</h2>

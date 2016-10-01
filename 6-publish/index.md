@@ -26,9 +26,19 @@ In <a href="{{ "/1-installation" | prepend: site.baseurl }}">Part 1</a>, you pro
 
 ## Turn your project into a Git repository (just once)
 
-Once you have your GitHub account, **open the GitHub Desktop app** on your computer. When you do this for the first time, you'll see tips for completing a tutorial. Let's skip that for now, you can also come back to the tutorial later, when you learn more about Git.
+Once you have your GitHub account, **open the GitHub Desktop app** on your computer. When you do this for the first time, you'll be asked to log in and set up a few things. <span class="os-switch show"><span class="osx">Just follow the instructions and on the <em>Configure Git</em> screen, click the <em>Install Command Line Tools</em> button.</span><span class="wins"></span></span>
 
-What we want to do right now is tell Git that it should start tracking changes in your project. To do that, click the Add icon in the top right of the app, switch to the **Add** tab, and add the folder, where your website is saved (for example, `Users/codecat/Documents/Websites/my-website`). Click on the **Create & Add Repository** button to confirm your choice. This will add and set up your project folder as a repository, which is just a fancy name for a project.
+After the initial setup up, you'll find a Tutorial in the app that you can skip for now. We now want to tell the GitHub app to start tracking changes in your project.
+
+<div class="os-switch show">
+<div class="osx"></div>
+<div class="wins">
+	<p>But first, let's go back to the Command Prompt for just a second to initialize Git in our project. Make sure you're in the project folder and type:</p>
+	<pre><code>&gt; git init</code></pre>
+</div>
+</div>
+
+In the GitHub app, click the + icon in the top right of the app, switch to the **Add** tab, and add the folder, where your website is saved (for example, `Users/codecat/Documents/Websites/my-website`). Click on the **Create & Add Repository** button to confirm your choice. This will add and set up your project folder as a repository, which is just a fancy name for a project.
 
 <img src="{{ "/images/github-mac-0-add-repo-part.png" | prepend: site.baseurl }}"/>
 
