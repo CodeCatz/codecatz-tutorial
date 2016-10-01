@@ -47,14 +47,14 @@ Once you're happy with the new images on your website, it's time to sync the cha
 Open the GitHub app on your computer again and go through both of the steps you've learned in <a href="{{ "/6-publish#syncing-step-1-review-and-commit-your-changes" | prepend: site.baseurl }}">Part 6</a>. To recap:
 
 <ol>
-	<li>You first need to review the changes you've made in the <strong>Uncommitted Changes</strong> section of the app (make sure there aren't any changes you don't want to publish here - it happens!)</li>
+	<li>You first need to review the changes you've made in the <strong><span class="os-switch"><span class="osx">Uncommited Changes</span><span class="wins">Changes</span></span></strong> section of the app (make sure there aren't any changes you don't want to publish here - it happens!)</li>
 	<li>After you've checked the changes in all files, write a <strong>Summary</strong> for your commit and click the <strong>Commit to master</strong> button, so your commit package will be moved to the <strong>History</strong> section</li>
 	<li>Now you can click on the <strong>Sync</strong> button in the top right corner to push your latest commit to your repository on GitHub, which will automatically update the online version of your website.</li>
 </ol>
 
-<img src="{{ "/images/github-mac-3-update-image.png" | prepend: site.baseurl }}"/>
+<div class="os-switch"><div class="osx"><img src="{{ "/images/github-mac-3-update-image.png" | prepend: site.baseurl }}"/></div><div class="wins"><img src="{{ "/images/github-win-3-update-image.png" | prepend: site.baseurl }}"/></div></div>
 
-After the sync, your website at **username.github.io** should also have the photos you've just added. Just keep in mind that sometimes it takes a few minutes for changes to appear. If your latest changes are listed on your repository page on GitHub (https://github.com/username/username.github.io), they should eventually appear on your website too.
+After the sync, your website at **&lt;username&gt;.github.io** should also have the photos you've just added. Just keep in mind that sometimes it takes a few minutes for changes to appear. If your latest changes are listed on your repository page on GitHub (https://github.com/&lt;username&gt;/&lt;username&gt;.github.io), they should eventually appear on your website too.
 
 You can sync your website this way every time you have new content for your website or want to change its look.
 
