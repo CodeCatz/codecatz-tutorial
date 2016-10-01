@@ -119,9 +119,14 @@ Ruby is a programming language. Don't worry, you won't have to learn it just yet
 <div class="osx">
 	<p>On a Mac, you probably already have Ruby installed. See the instructions below for more information on how to check your Ruby installation.</p>
 	<p>You can find additional installation instructions on the <a href="https://www.ruby-lang.org/en/documentation/installation/#homebrew" target="_blank">Ruby website</a> (but this shouldn't be necessary).</p>
+	<p>You will probably need to <a href="http://railsapps.github.io/xcode-command-line-tools.html" target="_blank">install Xcode Command Line Tools</a>. To do that, just type the following command in the Terminal:</p>
+	<pre>$ <code>xcode-select --install</code></pre>
+	<p>In case of problems, you can check out <a href="http://railsapps.github.io/xcode-command-line-tools.html" target="_blank">this page</a> for additional instructions</p>
 </div>
 <div class="wins">
-	<p>On a Windows computer, use <a href="http://rubyinstaller.org/downloads/" target="_blank">RubyInstaller</a> to install <strong>Ruby 2.2.2</strong> on your computer.</p>
+	<p>On a Windows computer, use <a href="http://rubyinstaller.org/downloads/" target="_blank">RubyInstaller</a> to install <strong>Ruby 2.2.5</strong> on your computer.</p>
+
+	<p>Once the Ruby installation is finished, open the <strong>Start Command Prompt With Ruby</strong> application to continue with this tutorial.</p>
 </div>
 </div>
 
@@ -131,18 +136,27 @@ Now that you've become familiar with <span class="os-switch"><span class="osx">T
 
 	$ ruby --version  
 
-If you get a line that starts with `ruby`, followed by version number that is `1.9.3` or greater (for example, `2.1.6`, `2.2.2`), you're good to go!
+If you get a line that starts with `ruby`, followed by version number that is `1.9.3` or greater (for example, `2.1.6`, `2.2.5`), you're good to go!
 
-## Install the GitHub Pages gem
+## Install some very useful gems
 
-Next, we need to install everything you need to build your website and publish it online by the end of the day. Just type in the following command in your <span class="os-switch"><span class="osx">Terminal</span><span class="wins">Command Prompt</span></span>:
+<img src="{{ "/images/RubyGems.png" | prepend: site.baseurl }}" class="text-icon"/>
 
-	$ gem install github-pages
+Next, we need to install a few tools you'll need to build your website and publish it online by the end of the day. In Ruby, these additional tools are packaged as **gems** (pretty cool name, right?). 
 
-If you get an error about having a permission denied error, you can also try:
+We'll need two gems for this tutorial: `github-pages` and `bundler`. To install them, just type in the following command in your <span class="os-switch"><span class="osx">Terminal</span><span class="wins">Command Prompt</span></span>:
 
-	$ sudo gem install github-pages
+	$ gem install github-pages bundler
 
+If you get a permission denied error, you can also try:
+
+	$ sudo gem install github-pages bundler
+
+When you enter the command to install new gems, it will take some time for anything to happen. Don't worry, this is normal. 
+
+When you install new gems, your <span class="os-switch"><span class="osx">Terminal</span><span class="wins">Command Prompt</span></span> has to look for the right gems online, download them and install them on your computer.The `github-pages` gem includes a lot of smaller gems, so it can take a few minutes to install all of them. Let your <span class="os-switch"><span class="osx">Terminal</span><span class="wins">Command Prompt</span></span> do the work for you and feel free to grab a cup of coffee or tea while you wait.
+
+Once the installation is done, you'll see a line telling you how many gems were installed, followed by the regular input prompt of your <span class="os-switch"><span class="osx">Terminal</span><span class="wins">Command Prompt</span></span>.
 
 ## Install a text editor
 
@@ -154,8 +168,14 @@ To make sure we're all using the same tools, let's go ahead and install **<a hre
 
 <img src="{{ "/images/github-icon-mac.png" | prepend: site.baseurl }}" class="text-icon"/> The **GitHub Desktop app** will make it easier to publish your website online at the end of the day, or any other time, for that matter.
 
-
 Visit <a href="https://desktop.github.com/" target="_blank">this page</a> to install the app on your computer. There's also a <a href="https://help.github.com/desktop/" target="_blank">help page</a> if you'll ever need more information about the app and hints about how to use it.
+
+<div class="os-switch show">
+<div class="osx"></div>
+<div class="wins">
+	<p>And finally, download and <strong>install Git</strong> from <a href="https://git-scm.com/downloads" target="_blank">this page</a>. This is also something we'll need to publish your website. You don't need to change any settings in the installer.</p>
+</div>
+</div>
 
 <div class="recap">
 <h2>What did you learn?</h2>

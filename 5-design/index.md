@@ -54,7 +54,7 @@ Next, download <a href="https://dl.dropboxusercontent.com/u/8417464/CodeCatz/min
 - `_layouts` folder: this folder includes templates for different page types. If you click on the file `default.html`, you'll see lines where the head, header and footer are called in.
 - `_sass` folder: this folder includes a bunch of additional style files for the minima theme.
 
-<img src="{{ "/images/sublime-folder-structure.png" | prepend: site.baseurl }}"/>
+<div class="os-switch"><div class="osx"><img src="{{ "/images/sublime-folder-structure.png" | prepend: site.baseurl }}"/></div><div class="wins"><img src="{{ "/images/sublime-folder-structure-win.png" | prepend: site.baseurl }}"/></div></div>
 
 After you've copied the three folders, make sure to refresh your website and check the Terminal for any errors.
 
@@ -176,7 +176,7 @@ Confused by all the different folders? Don't worry, you'll get used to finding t
 
 And don't forget to save any file you edit and refresh your website in the browser to see the results. Don't like what you see? Feel free to play around and experiment with different colors and other attributes! Have fun!
 
-<img src="{{ "/images/part-5a-website.png" | prepend: site.baseurl }}"/>
+<div class="os-switch"><div class="osx"><img src="{{ "/images/part-5a-website.png" | prepend: site.baseurl }}"/></div><div class="wins"><img src="{{ "/images/part-5a-website-win.png" | prepend: site.baseurl }}"/></div></div>
 
 ## Bonus points: meet Bootstrap
 
@@ -252,7 +252,7 @@ Save, refresh the website. You'll see three perfectly divided columns. Try stret
 
 And all you need to make your content responsive with Bootstrap is define rows (`<div class="row">`) that include more `<div>` elements with classes that define how much room they can take on page (`class="col-md-4"`). All you have to keep in mind that the maximum number of columns is 12. Try changing all `<div class="col-md-4">` from the example above to `<div class="col-md-3">` and see how that affects the layout of the page. Again, feel free to play around and experiment!
 
-<img src="{{ "/images/part-5b-website.png" | prepend: site.baseurl }}"/>
+<div class="os-switch"><div class="osx"><img src="{{ "/images/part-5b-website.png" | prepend: site.baseurl }}"/></div><div class="wins"><img src="{{ "/images/part-5b-website-win.png" | prepend: site.baseurl }}"/></div></div>
 
 <div class="recap">
 <h2>What did you learn?</h2>

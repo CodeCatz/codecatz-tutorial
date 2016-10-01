@@ -10,7 +10,7 @@ In <a href="{{ "/3-pages" | prepend: site.baseurl }}">Part 3</a>, you learned ho
 
 Jekyll creates a blog post from every file in the `_posts` folder, you just have to make sure they are named and formatted the way Jekyll expects them to be.
 
-In your new project, you will find just one file in your `_posts` folder. The file will be named something like this: `2015-06-28-welcome-to-jekyll.markdown`. The first part of the name will be different to match the date when you created your project.
+In your new project, you will find just one file in your `_posts` folder. The file will be named something like this: `2016-09-30-welcome-to-jekyll.markdown`. The first part of the name will be different to match the date when you created your project.
 
 ## Create a new blog post
 
@@ -82,8 +82,7 @@ To make sure the readers know there's more than just the first paragraph to your
 
 Save, refresh, and test the new link. Pretty cool, right? You can now take a short break, you've earned it!
 
-<img src="{{ "/images/part-4-website.png" | prepend: site.baseurl }}"/>
-
+<div class="os-switch"><div class="osx"><img src="{{ "/images/part-4-website.png" | prepend: site.baseurl }}"/></div><div class="wins"><img src="{{ "/images/part-4-website-win.png" | prepend: site.baseurl }}"/></div></div>
 <div class="recap">
 <h2>What did you learn?</h2>
 You now know how to add and write new blog posts on your website. You've already learned how to add new pages, so you can now add any type of content to your website.

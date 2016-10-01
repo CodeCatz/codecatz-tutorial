@@ -16,9 +16,7 @@ It's made out of two parts. The first part is written in YAML front matter which
 	layout: default
 	---
 
-In this case, the YAML part is pretty simple. The only thing we define for this page is that it uses the default layout of the page. If you look into the `layouts` folder, you'll find a `default.html` file, which is used by `index.html` to build content. If you add anything to the `default.html` file, it will also appear on `index.html` and any other page that uses `layout: default`.
-
-Don't worry if this sounds confusing, it will start making sense as we go along.
+In this case, the YAML part is pretty simple. The only thing we define for this page is that it uses the default layout of the page. You can define your own layouts for different pages later on, when we'll learn how to customize Jekyll themes.
 
 ### HTML, the language of web
 
@@ -123,7 +121,7 @@ Desktop web browsers also offer other tools that can help you see how a webpage 
 
 Let's get back to your own website. At the moment, you still have the section that displays blog posts on the front page of the website. We'll now create a new web page that will be used for displaying blog posts, so there's more space for other content.
 
-Copy the file `about.md` and rename it to `blog.html` (make sure both files are in the same folder). Edit the YAML part of `blog.html` like this:
+Use Finder to make a copy of the file `about.md` and rename the copy to `blog.html` (make sure both files are in the same folder). Edit the YAML part of `blog.html` like this:
 
 	---
 	layout: page
@@ -131,7 +129,7 @@ Copy the file `about.md` and rename it to `blog.html` (make sure both files are 
 	permalink: /blog/
 	---
 
-Delete the rest of the content and move the following part from `index.html` into `blog.html` (make sure to leave the YAML at the beginning of the `blog.html` file, the copied HTML should start in lines following the second pair of `---`): 
+Delete the rest of the content and use cut and paste to move the following part from `index.html` into `blog.html` (make sure to leave the YAML at the beginning of the `blog.html` file, the copied HTML should start in lines following the second pair of `---`): 
 
 	  {% raw %}<h1 class="page-heading">Posts</h1>
 
@@ -151,7 +149,7 @@ Delete the rest of the content and move the following part from `index.html` int
 
 Save all edited files (`index.html` and `blog.html`), refresh the website in your web browser and make sure everything works as expected. The navigation menu in the upper right corner should now have the link to your newly created "Blog" page.
 
-<img src="{{ "/images/part-3-website.png" | prepend: site.baseurl }}"/>
+<div class="os-switch"><div class="osx"><img src="{{ "/images/part-3-website.png" | prepend: site.baseurl }}"/></div><div class="wins"><img src="{{ "/images/part-3-website-win.png" | prepend: site.baseurl }}"/></div></div>
 
 If you want to add new pages, follow the same process. Create a new file (for example, `cats.html`) by duplicating one of the existing pages in your project folder, make sure it has a defined title, layout and permalink in the YAML part between triple-dashed lines, and then add any content you want using HTML.
 
