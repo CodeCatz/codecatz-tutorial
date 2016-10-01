@@ -72,7 +72,7 @@ The commit package you just saved will now appear under the **History** section.
 
 Click the **Publish** button to continue. The app will ask you to login with your GitHub account. After you do this, a window will appear, asking you for a name and description for the repository, as it will appear on GitHub.
 
-It's important to name the repository for your Jekyll website in the following format: **username.github.io** - but replace the username part with your own GitHub username. For example, if your username was *codecat*, the name of your repository would be *codecat.github.io*. Once you've changed that, click the **Push Repository** button.
+It's important to name the repository for your Jekyll website in the following format: **username.github.io** - but replace the username part with your own GitHub username. For example, if your username was *GraceHoppurr*, the name of your repository would be *GraceHoppurr.github.io*. Once you've changed that, click the **Push Repository** button.
 
 <img src="{{ "/images/github-mac-2-create-repo.png" | prepend: site.baseurl }}"/>
 
