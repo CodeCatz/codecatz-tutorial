@@ -26,7 +26,7 @@ Save `index.html`, refresh the website in your browser, and you should see the i
 
 This tag will only display a cat photo on your front page if you have a photo with the name `cat.jpg` in a folder named `images`. If your photo file has a different name, use that name. 
 
-<img src="{{ "/images/part-7-website.png" | prepend: site.baseurl }}"/>
+<div class="os-switch"><div class="osx"><img src="{{ "/images/part-7-website.png" | prepend: site.baseurl }}"/></div><div class="wins"><img src="{{ "/images/part-7-website-win.png" | prepend: site.baseurl }}"/></div></div>
 
 ## Add more photos
 

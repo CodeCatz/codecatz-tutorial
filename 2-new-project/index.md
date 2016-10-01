@@ -81,7 +81,7 @@ Hint: remember this part so that you can visit your website on your own later on
 
 In order to edit the website, you'll need a text editor. You should already have Sublime 2 installed on your computer (if not, go back to <a href="{{ "/1-installation/#step-4-install-a-text-editor" | prepend: site.baseurl }}">Part 1</a>). Once you open Sublime, use the File > Open menu to find and open your project folder.
 
-<div class="os-switch"><span class="osx"><img src="{{ "/images/sublime-open-project.png" | prepend: site.baseurl }}"/></span><span class="wins"><img src="{{ "/images/sublime-open-project-win.png" | prepend: site.baseurl }}"/></span></div>
+<div class="os-switch"><div class="osx"><img src="{{ "/images/sublime-open-project.png" | prepend: site.baseurl }}"/></div><div class="wins"><img src="{{ "/images/sublime-open-project-win.png" | prepend: site.baseurl }}"/></div></div>
 
 
 On the left side, you'll see a list of files and folders in your project. That's a lot of work Jekyll did for us! Click on file names to see what's inside and on folder names to reveal their contents.
@@ -122,7 +122,7 @@ Once you add your own text, save the file in Sublime (hint: Cmd + S is the keybo
 
 The website should now look something like this:
 
-<div class="os-switch"><span class="osx"><img src="{{ "/images/part-2-website.png" | prepend: site.baseurl }}"/></span><span class="wins"><img src="{{ "/images/part-2-website-win.png" | prepend: site.baseurl }}"/></span></div>
+<div class="os-switch"><div class="osx"><img src="{{ "/images/part-2-website.png" | prepend: site.baseurl }}"/></div><div class="wins"><img src="{{ "/images/part-2-website-win.png" | prepend: site.baseurl }}"/></div></div>
 
 <div class="hint">
 Hint: make sure Jekyll is running in the Terminal (remember <code>jekyll serve</code>?). If there's anything wrong with the code, the Terminal will also show you potential errors, so check your Terminal window whenever the website doesn't load.
