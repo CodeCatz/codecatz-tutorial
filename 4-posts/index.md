@@ -10,7 +10,7 @@ In <a href="{{ "/3-pages" | prepend: site.baseurl }}">Part 3</a>, you learned ho
 
 Jekyll creates a blog post from every file in the `_posts` folder, you just have to make sure they are named and formatted the way Jekyll expects them to be.
 
-In your new project, you will find just one file in your `_posts` folder. The file will be named something like this: `2015-06-28-welcome-to-jekyll.markdown`. The first part of the name will be different to match the date when you created your project.
+In your new project, you will find just one file in your `_posts` folder. The file will be named something like this: `2016-09-30-welcome-to-jekyll.markdown`. The first part of the name will be different to match the date when you created your project.
 
 ## Create a new blog post
 
