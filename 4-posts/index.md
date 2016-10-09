@@ -72,7 +72,7 @@ In the file `blog.html`, find the lines that take care of displaying the post ti
 
 And add the following line after the line with the closing Heading 2 tag (`</h2>`):
 
-          {% raw %}{{ post.excerpt }}{% endraw %}
+		{% raw %} {{ post.excerpt }} {% endraw %}
 
 Save the file and reload the website in your browser. Jekyll will now automatically include the first paragraph of each blog post on the page.
 
