@@ -6,7 +6,7 @@ permalink: /6-publish/
 
 In <a href="{{ "/5-design" | prepend: site.baseurl }}">Part 5</a>, you made your website much better looking. It looks so good it's time to share it with the world and send the link to your friends.
 
-At the moment, you awesome website lives on your computer. You can visit it in your web browser after you run it from the Terminal with `jekyll serve`. Unfortunately, this doesn't yet make it available to anyone else. Which is why we'll now see how you can publish it online with a little help from <a href="https://github.com" target="_blank">GitHub</a>.
+At the moment, your awesome website lives on your computer. You can visit it in your web browser after you run it from the Terminal with `jekyll serve`. Unfortunately, this doesn't yet make it available to anyone else. Which is why we'll now take a look at how you can publish it online with a little help from <a href="https://github.com" target="_blank">GitHub</a>.
 
 <div class="hint">
 Note: You can skip this part and come back to it later.
@@ -40,10 +40,10 @@ After the initial setup up, you'll find a Tutorial in the app that you can skip 
 
 <div class="os-switch show">
 <div class="osx">
-	<p>In the GitHub app, click the <strong>+ icon</strong> in the top right of the app, switch to the <strong>Add</strong> tab, and add the folder, where your website is saved (for example, <code>Users/codecat/Documents/Websites/my-website</code>). Click on the <strong>Create &et; Add Repository</strong> button to confirm your choice. This will add and set up your project folder as a repository, which is just a fancy name for a project.</p>
+	<p>In the GitHub app, click the <strong>+ icon</strong> in the top left of the app, switch to the <strong>Add</strong> tab, and add the folder, where your website is saved (for example, <code>Users/codecat/Documents/Websites/my-website</code>). Click on the <strong>Create &et; Add Repository</strong> button to confirm your choice. This will add and set up your project folder as a repository, which is just a fancy name for a project.</p>
 </div>
 <div class="wins">
-	<p>Go back to the GitHub app now, click the <strong>+ icon</strong> in the top right of the app, switch to the <strong>Add</strong> tab, and add the folder, where your website is saved (for example, <code>C:\Users\codecat\Documents\Websites/my-website</code>). Click on the <strong>Add Repository</strong> button to confirm your choice. This will add and set up your project folder as a repository, which is just a fancy name for a project.</p>
+	<p>Go back to the GitHub app now, click the <strong>+ icon</strong> in the top left of the app, switch to the <strong>Add</strong> tab, and add the folder, where your website is saved (for example, <code>C:\Users\codecat\Documents\Websites/my-website</code>). Click on the <strong>Add Repository</strong> button to confirm your choice. This will add and set up your project folder as a repository, which is just a fancy name for a project.</p>
 </div>
 </div>
 
@@ -77,7 +77,7 @@ The commit package you just saved will now appear under the **History** section.
 
 <div class="os-switch"><div class="osx"><img src="{{ "/images/github-mac-1-review-changes-sync.png" | prepend: site.baseurl }}"/></div><div class="wins"><img src="{{ "/images/github-win-1-review-changes-sync.png" | prepend: site.baseurl }}"/></div></div>
 
-Click the **Publish** button to continue. The app will ask you to login with your GitHub account. After you do this, a window will appear, asking you for a name and description for the repository, as it will appear on GitHub.
+Click the **Publish** button to continue. After you do this, a window will appear, asking you for a name and description for the repository, as it will appear on GitHub.
 
 It's important to name the repository for your Jekyll website in the following format: **&lt;username&gt;.github.io** - but replace the username part with your own GitHub username. For example, if your username was *GraceHoppurr*, the name of your repository would be *GraceHoppurr.github.io*.
 
