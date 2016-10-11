@@ -18,7 +18,9 @@ function checkProgress() {
 };
 
 $(window).scroll(function() {
-	if($(window).scrollTop() + $(window).height() == $(document).height()) {
+	// A page is done when the scroll reaches doc height - footer height
+	var doneHeight = $(document).height() - $( "footer" ).height();
+	if($(window).scrollTop() + $(window).height() >= doneHeight ) {
 		updateProgress();
    }
 });

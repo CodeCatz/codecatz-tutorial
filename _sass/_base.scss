@@ -183,7 +183,7 @@ code {
     font-size: 15px;
     border: 1px solid $grey-color-light;
     border-radius: 3px;
-    background-color: #eef;
+    background-color: #E7F7B4;
 }
 
 code {
@@ -207,8 +207,8 @@ pre {
  * Wrapper
  */
 .wrapper {
-    max-width: -webkit-calc(600px - (#{$spacing-unit} * 2));
-    max-width:         calc(600px - (#{$spacing-unit} * 2));
+    max-width: -webkit-calc(900px - (#{$spacing-unit} * 2));
+    max-width:         calc(900px - (#{$spacing-unit} * 2));
     margin-right: auto;
     margin-left: auto;
     padding-right: $spacing-unit;
@@ -216,8 +216,8 @@ pre {
     @extend %clearfix;
 
     @include media-query($on-laptop) {
-        max-width: -webkit-calc(800px - (#{$spacing-unit}));
-        max-width:         calc(800px - (#{$spacing-unit}));
+        max-width: -webkit-calc(1200px - (#{$spacing-unit}));
+        max-width:         calc(1200px - (#{$spacing-unit}));
         padding-right: $spacing-unit / 2;
         padding-left: $spacing-unit / 2;
     }
@@ -317,5 +317,8 @@ pre {
 .more {
     font-size: 0.9em;
     padding: 1em;
-    background-color: #FAEBD7;
+    background-color: #FFA789;
+    a {
+        color: $grey-color-light;
+    }
 }
