@@ -27,27 +27,17 @@ The <span class="os-switch"><span class="osx">Terminal</span><span class="wins">
 
 The <span class="os-switch"><span class="osx">Terminal</span><span class="wins">Command Prompt</span></span> is a powerful tool that you can use to move around your computer and enter various commands. The <span class="os-switch"><span class="osx">Terminal</span><span class="wins">Command Prompt</span></span> is waiting for your commands if you see <span class="os-switch"><span class="osx">`$`</span><span class="wins">`>`</span></span> at the end of the line. Let's start by typing a simple command first:
 
-<span class="os-switch">
-<span class="osx">
-	$ whoami
-</span>
-<span class="wins">
-	> whoami
-</span>
-</span>
+
+<div class="highlighter-rouge"><pre class="highlight"><code><span class="os-switch"><span class="osx">$ </span><span class="wins">> </span></span>whoami
+</code></pre></div>
 
 Press the Enter key on your keyboard, and your <span class="os-switch"><span class="osx">Terminal</span><span class="wins">Command Prompt</span></span> should tell you your current username. For example, this is what you would see if your username were `codecat`:
 
-<span class="os-switch">
-<span class="osx">
-	$ whoami
-	codecat
-</span>
-<span class="wins">
-	> whoami
-	codecatcomputer/codecat
-</span>
-</span>
+<div class="highlighter-rouge"><pre class="highlight"><code><span class="os-switch"><span class="osx">$ whoami
+codecat</span><span class="wins">> whoami
+comuter name\codecat</span></span>
+</code></pre></div>
+
 <div class="hint os-switch">
 Hint: don't worry if you make a typo when writing commands into the <span class="osx">Terminal</span><span class="wins">Command Prompt</span>. It happens <em>all the time</em>, even to professional programmers. Usually, the <span class="osx">Terminal</span><span class="wins">Command Prompt</span> will complain about the command not being found or something similar. Just retype the command again, eventually you'll get it right.
 </div>
