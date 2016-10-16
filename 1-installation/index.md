@@ -262,7 +262,7 @@ Don't worry. In a typical day of a programmer there is more then one such moment
 When you enter the command to install new gems, it will take some time for anything to happen. Don't worry, this is normal.
 
 
-When you install new gems, your <span class="os-switch"><span class="osx">Terminal</span><span class="wins">Command Prompt</span></span> has to look for the right gems online, download them and install them on your computer.The `github-pages` gem includes a lot of smaller gems, so it can take a few minutes to install all of them. Let your <span class="os-switch"><span class="osx">Terminal</span><span class="wins">Command Prompt</span></span> do the work for you and feel free to grab a cup of coffee or tea while you wait.
+When you install new gems, your <span class="os-switch"><span class="osx">Terminal</span><span class="wins">Command Prompt</span></span> has to look for the right gems online, download them and install them on your computer. The `github-pages` gem includes a lot of smaller gems, so it can take a few minutes to install all of them. Let your <span class="os-switch"><span class="osx">Terminal</span><span class="wins">Command Prompt</span></span> do the work for you and feel free to grab a cup of coffee or tea while you wait.
 
 Once the installation is done, you'll see a line telling you how many gems were installed, followed by the regular input prompt of your <span class="os-switch"><span class="osx">Terminal</span><span class="wins">Command Prompt</span></span>.
 
