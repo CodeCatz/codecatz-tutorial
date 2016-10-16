@@ -255,7 +255,7 @@ If you get a permission denied error, you can also try:
 Sometimes things don't go smoothly and you can get pretty weird errors when you try to install gems. One of the common ones is when you run the above command you get something like this:
 <div class="highlighter-rouge"><pre class="highlight"><code>> SSL_connect returned=1 errno=0 state=SSLv3 read server certificate B: certificate verify failed</code></pre></div>
 
-Don't worry. In a typical day of a programmer there is more then one such moment and it's pretty normal to Google for solutions. So if this happens to you, we found a <a here="http://guides.rubygems.org/ssl-certificate-update/" target="_blank">page</a> where you can follow the steps and resolve this issue.
+Don't worry. In a typical day of a programmer there is more then one such moment and it's pretty normal to Google for solutions. So if this happens to you, we found a <a href="http://guides.rubygems.org/ssl-certificate-update/" target="_blank">page</a> where you can follow the steps and resolve this issue.
 </div>
 </div>
 
