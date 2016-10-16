@@ -14,11 +14,11 @@ In your new project, you will find just one file in your `_posts` folder. The fi
 
 ## Create a new blog post
 
-This sample blog posts includes some helpful information about Jekyll, so we’ll leave it as it is for now. It also explains how you can create a new blog post, so let’s start with that. 
+This sample blog posts includes some helpful information about Jekyll, so we’ll leave it as it is for now. It also explains how you can create a new blog post, so let’s start with that.
 
 ### Create a new file for your blog post
 
-You can duplicate the existing post into a new file (you can use Copy-Paste in Finder). Just make sure the new file is also placed in the `_posts` folder. Rename the filename to `YYYY-MM-DD-learning-jekyll.markdown`, where the `YYYY-MM-DD` part matches today’s date. 
+You can duplicate the existing post into a new file (you can use Copy-Paste in <span class="os-switch"><span class="osx">Finder</span><span class="wins">Windows Explorer</span></span>). Just make sure the new file is also placed in the `_posts` folder. Rename the filename to `YYYY-MM-DD-learning-jekyll.markdown`, where the `YYYY-MM-DD` part matches today’s date. 
 
 For example, if today were July 29, 1947*, the name of your new blog post file would be `1947-07-29-learning-jekyll.markdown`.
 
@@ -58,7 +58,7 @@ Well done! But now your new blog post still has the same content as the sample p
 
 Use your own words and your preferred language to write about how you could use Jekyll for your own projects and write any notes you've scribbled on paper during previous parts. You can use this as your learning journal. Don't rush this part, feel free to take as much time as you need to sort through your thoughts and ask questions about parts that still confuse you.
 
-After you're done, don't forget to save the file, reload your website in the browser, and see what you've written appear on the page. Good job! 
+After you're done, don't forget to save the file, reload your website in the browser, and see what you've written appear on the page. Good job!
 
 ## Add post excerpts to your blog page
 
@@ -72,8 +72,8 @@ In the file `blog.html`, find the lines that take care of displaying the post ti
 
 And add the following line after the line with the closing Heading 2 tag (`</h2>`):
 
-        {% raw %} 
-        {{ post.excerpt }} 
+        {% raw %}
+        {{ post.excerpt }}
         {% endraw %}
 
 Save the file and reload the website in your browser. Jekyll will now automatically include the first paragraph of each blog post on the page.
@@ -90,4 +90,4 @@ Save, refresh, and test the new link. Pretty cool, right? You can now take a sho
 You now know how to add and write new blog posts on your website. You've already learned how to add new pages, so you can now add any type of content to your website.
 </div>
 
-In <a href="{{ "/5-design" | prepend: site.baseurl }}">Part 5</a>, you'll learn how to make your website your own by playing with its design. 
+In <a href="{{ "/5-design" | prepend: site.baseurl }}">Part 5</a>, you'll learn how to make your website your own by playing with its design.
