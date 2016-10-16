@@ -116,7 +116,8 @@ Directory of C:\Users\codecat
 
 Now, let's move into the `Desktop` folder:
 
-	$ cd Desktop
+<div class="highlighter-rouge"><pre class="highlight"><code><span class="os-switch"><span class="osx">$</span><span class="wins">></span></span> cd Desktop
+</code></pre></div>
 
 <div class="os-switch">
 <span class="osx">
@@ -147,7 +148,8 @@ As before, you can now also display a list of files and folders on your desktop 
 
 Now, let's make a new folder on your Desktop, using only text commands. Type in the following command:
 
-	$ mkdir cat-folder
+<div class="highlighter-rouge"><pre class="highlight"><code><span class="os-switch"><span class="osx">$</span><span class="wins">></span></span> mkdir cat-folder
+</code></pre></div>
 
 `mkdir` is just a super short version of "**m**a**k**e **dir**ectory" and `cat-folder` is the name of the folder we want to create (you could choose any other name here).
 
@@ -223,7 +225,8 @@ Ruby is a programming language. Don't worry, you won't have to learn it just yet
 
 Now that you've become familiar with <span class="os-switch"><span class="osx">Terminal</span><span class="wins">Command Prompt</span></span>, you can always run the following command to check whether Ruby is installed and its version:
 
-	$ ruby --version  
+<div class="highlighter-rouge"><pre class="highlight"><code><span class="os-switch"><span class="osx">$</span><span class="wins">></span></span> ruby --version
+</code></pre></div>
 
 If you get a line that starts with `ruby`, followed by version number that is `1.9.3` or greater (for example, `2.1.6`, `2.2.5`), you're good to go!
 
@@ -235,7 +238,8 @@ Next, we need to install a few tools you'll need to build your website and publi
 
 We'll need two gems for this tutorial: `github-pages` and `bundler`. To install them, just type in the following command in your <span class="os-switch"><span class="osx">Terminal</span><span class="wins">Command Prompt</span></span>:
 
-	$ gem install github-pages bundler
+<div class="highlighter-rouge"><pre class="highlight"><code><span class="os-switch"><span class="osx">$</span><span class="wins">></span></span> gem install github-pages bundler
+</code></pre></div>
 
 <div class="os-switch show">
 <div class="osx">
@@ -249,7 +253,7 @@ If you get a permission denied error, you can also try:
 <div class="wins">
 
 Sometimes things don't go smoothly and you can get pretty weird errors when you try to install gems. One of the common ones is when you run the above command you get something like this:
-<div class="highlighter-rouge"><pre class="highlight"><code> SSL_connect returned=1 errno=0 state=SSLv3 read server certificate B: certificate verify failed</code></pre></div>
+<div class="highlighter-rouge"><pre class="highlight"><code>> SSL_connect returned=1 errno=0 state=SSLv3 read server certificate B: certificate verify failed</code></pre></div>
 
 Don't worry. In a typical day of a programmer there is more then one such moment and it's pretty normal to Google for solutions. So if this happens to you, we found a <a here="http://guides.rubygems.org/ssl-certificate-update/" target="_blank">page</a> where you can follow the steps and resolve this issue.
 </div>
