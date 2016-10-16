@@ -9,7 +9,7 @@ Before we can get started, let's take a few minutes to get familiar with an app 
 
 
 ## Get to know the <span class="os-switch"><span class="osx">Terminal</span><span class="wins">Command Prompt</span></span>
-<img src="{{ "/images/terminal-icon-mac.png" | prepend: site.baseurl }}" class="icon"/> First, find and open an app called Terminal on your computer.
+<img src="{{ "/images/terminal-icon-mac.png" | prepend: site.baseurl }}" class="text-icon"/> First, find and open an app called Terminal on your computer.
 <span class="os-switch"><span class="osx">It's usually in the `/Applications/Utilities` folder or you can use Spotlight Search to find it.</span>
 <span class="wins">You can find it by typing `cmd` in your search bar in windows menu</span></span>
 
