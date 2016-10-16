@@ -8,39 +8,45 @@ In <a href="{{ "/1-installation" | prepend: site.baseurl }}">Part 1</a>, you ins
 
 ## Start a new project
 
-You will only have to do start a new project once. In the Terminal, move to a folder where you want to save your website. 
+You will only have to do start a new project once. In the <span class="os-switch"><span class="osx">Terminal</span><span class="wins">Command Prompt</span></span>, move to a folder where you want to save your website.
 
 For example, you might want to create a new folder called `Websites` in your existing `Documents` folder and move into the new folder. These are the commands you'd use:
 
-	$ cd Documents
-	$ mkdir Websites
-	$ cd Websites
-	$ pwd
-	/Users/codecat/Documents/Websites
+<div class="highlighter-rouge"><pre class="highlight"><code><span class="os-switch"><span class="osx">$ cd Documents
+$ mkdir Websites
+$ cd Websites
+$ pwd
+codecat</span><span class="wins">> cd Documents
+> mkdir Websites
+> cd Websites</span></span>
+</code></pre></div>
 
-You can of course create the folder for your Jekyll project somehwere else. Just make sure to use the Terminal to move into that folder. Once you're in the right place (remember: you can always check with `pwd`), run this command:
+You can of course create the folder for your Jekyll project somehwere else. Just make sure to use the <span class="os-switch"><span class="osx">Terminal</span><span class="wins">Command Prompt</span></span> to move into that folder. Once you're in the right place <span class="os-switch"><span class="osx">(remember: you can always check with <code class="highlighter-rouge">pwd</code>)</span></span>, run this command:
 
-	$ jekyll new my-website
+<div class="highlighter-rouge"><pre class="highlight"><code><span class="os-switch"><span class="osx">$ jekyll new my-website
+codecat</span><span class="wins">> jekyll new my-website</span></span>
+</code></pre></div>
 
-This command is made out of three parts. `jekyll` lets the Terminal know that we want to talk to Jekyll. `new` is the command that tells Jekyll to generate a new project, and `my-website` is the name of your new project. 
+
+This command is made out of three parts. `jekyll` lets the <span class="os-switch"><span class="osx">Terminal</span><span class="wins">Command Prompt</span></span> know that we want to talk to Jekyll. `new` is the command that tells Jekyll to generate a new project, and `my-website` is the name of your new project.
 
 For example, if you wanted to create a website about cats versus dogs, you would use the command `jekyll new cats-vs-dogs`.
 
 ### Initialize your Jekyll project (just once)
 
-If you installed Jekyll and typed the command to start a new project correctly, you should now have a new folder `my-website`. 
+If you installed Jekyll and typed the command to start a new project correctly, you should now have a new folder `my-website`.
 
 In the Terminal, make sure to move into the project folder:
 
-	$ cd my-website
+<div class="highlighter-rouge"><pre class="highlight"><code><span class="os-switch"><span class="osx">$</span><span class="wins">></span></span> cd my-website</code></pre></div>
 
 Once you're in the project folder, run the following command, so the `bundler` gem we installed in Part 1 can set up a few additional things:
 
-	$ bundle install
+<div class="highlighter-rouge"><pre class="highlight"><code><span class="os-switch"><span class="osx">$</span><span class="wins">></span></span> bundle install</code></pre></div>
 
-Let the command finish its job and then type: 
+Let the command finish its job and then type:
 
-	$ bundle exec jekyll serve
+<div class="highlighter-rouge"><pre class="highlight"><code><span class="os-switch"><span class="osx">$</span><span class="wins">></span></span> bundle exec jekyll serve</code></pre></div>
 
 Once you press enter to confirm the command, your Jekyll website should be running on your computer. Next time you'll want to run Jekyll, you don't need to use `bundle` commands, you'll just be using `jekyll serve` like described below.
 
@@ -56,7 +62,7 @@ Whenever a Jekyll project is running on your computer, you should see something 
 	Configuration file: /Users/codecat/Documents/Websites/my-website/_config.yml
 	            Source: /Users/codecat/Documents/Websites/my-website
 	       Destination: /Users/codecat/Documents/Websites/my-website/_site
-	      Generating... 
+	      Generating...
 	                    done.
 	 Auto-regeneration: enabled for '/Users/codecat/Documents/Websites/my-website'
 	Configuration file: /Users/codecat/Documents/Websites/my-website/_config.yml
@@ -69,12 +75,12 @@ Go ahead and visit your website. It doesn't look like much yet, but congratulati
 
 ### Stop running the Jekyll server
 
-Let's also take a look at how you can stop Jekyll from running, which is always a good idea when you finish your work. Go back to the <span class="os-switch"><span class="osx">Terminal</span><span class="wins">Command Prompt</span></span> and **press the Control and C keys** <span class="os-switch"><span class="osx">(not cmd!)</span><span class="wins"></span></span> on your keyboard to stop your local server. <span class="os-switch"><span class="osx"></span><span class="wins">You might also be asked to confirm the termination. Just type <code>Y</code> and press Enter to confirm.</span></span> 
+Let's also take a look at how you can stop Jekyll from running, which is always a good idea when you finish your work. Go back to the <span class="os-switch"><span class="osx">Terminal</span><span class="wins">Command Prompt</span></span> and **press the Control and C keys** <span class="os-switch"><span class="osx">(not cmd!)</span><span class="wins"></span></span> on your keyboard to stop your local server. <span class="os-switch"><span class="osx"></span><span class="wins">You might also be asked to confirm the termination. Just type <code>Y</code> and press Enter to confirm.</span></span>
 
 If you go back to your web browser now and refresh your website, it won't work anymore. Go back to the <span class="os-switch"><span class="osx">Terminal</span><span class="wins">Command Prompt</span></span> and run the website again with `jekyll serve`.
 
 <div class="hint">
-Hint: remember this part so that you can visit your website on your own later on. Remember to run <code>jekyll serve</code> from the Terminal inside the folder of your Jekyll project (use <code>pwd</code> to check whether you're in the right folder if you get any errors).
+Hint: remember this part so that you can visit your website on your own later on. Remember to run <code>jekyll serve</code> from the Terminal inside the folder of your Jekyll project <span class="os-switch"><span class="osx">(use <code>pwd</code> to check whether you're in the right folder if you get any errors)</span></span>.
 </div>
 
 ## Get to know your website
@@ -88,11 +94,11 @@ On the left side, you'll see a list of files and folders in your project. That's
 
 These are the main folders and files you should see:
 
-- `_posts` folder: this is where blog posts are stored. Go ahead and click on the post that's already in the folder. The text is the same as on the "Welcome to Jekyll!" post you can click on your website.
-- `_site` folder: this is where Jekyll saves your website when you run `jekyll serve`. You'll see a lot of files with familiar names here, but don't edit them as they are erased and generated again whenever you run your website.
-- `css` folder: this folders is used for files that define the design of the website, written in a language called CSS. We'll learn more about design and CSS later on.
-- `_config.yml` file: this is where the main settings for your website are saved. 
-- `index.html` and `about.md`: these are the two initial pages Jekyll creates. `index.html` is the first page you see when you open the website, while `about.md` is the page you see when you click on the About link on the website.
+-   `_posts` folder: this is where blog posts are stored. Go ahead and click on the post that's already in the folder. The text is the same as on the "Welcome to Jekyll!" post you can click on your website.
+-   `_site` folder: this is where Jekyll saves your website when you run `jekyll serve`. You'll see a lot of files with familiar names here, but don't edit them as they are erased and generated again whenever you run your website.
+-   `css` folder: this folders is used for files that define the design of the website, written in a language called CSS. We'll learn more about design and CSS later on.
+-   `_config.yml` file: this is where the main settings for your website are saved.
+-   `index.html` and `about.md`: these are the two initial pages Jekyll creates. `index.html` is the first page you see when you open the website, while `about.md` is the page you see when you click on the About link on the website.
 
 ## Customize the text on the front page
 
@@ -124,13 +130,14 @@ The website should now look something like this:
 
 <div class="os-switch"><div class="osx"><img src="{{ "/images/part-2-website.png" | prepend: site.baseurl }}"/></div><div class="wins"><img src="{{ "/images/part-2-website-win.png" | prepend: site.baseurl }}"/></div></div>
 
+<br />
 <div class="hint">
 Hint: make sure Jekyll is running in the Terminal (remember <code>jekyll serve</code>?). If there's anything wrong with the code, the Terminal will also show you potential errors, so check your Terminal window whenever the website doesn't load.
 </div>
 
 <div class="recap">
 <h2>What did you learn?</h2>
-Wow, you have your own website now! You created it by starting a new Jekyll project through the Terminal (<code>jekyll new my-website</code>) and then running the website with <code>jekyll serve</code>. You were then able to open the website in your web browser, and edit the title, email and description on the front page. 
+Wow, you have your own website now! You created it by starting a new Jekyll project through the Terminal (<code>jekyll new my-website</code>) and then running the website with <code>jekyll serve</code>. You were then able to open the website in your web browser, and edit the title, email and description on the front page.
 </div>
 
 In <a href="{{ "/3-pages" | prepend: site.baseurl }}">Part 3</a>, you'll learn more about editing the content of pages and basics of HTML, the language of the web.

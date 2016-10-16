@@ -34,16 +34,16 @@ After the initial setup up, you'll find a Tutorial in the app that you can skip 
 <div class="osx"></div>
 <div class="wins">
 	<p>But first, let's go back to the Command Prompt for just a second to initialize Git in our project. Make sure you're in the project folder and type:</p>
-	<pre><code>&gt; git init</code></pre>
+	<div class="highlighter-rouge"><pre class="highlight"><code>&gt; git init</code></pre></div>
 </div>
 </div>
 
 <div class="os-switch show">
 <div class="osx">
-	<p>In the GitHub app, click the <strong>+ icon</strong> in the top left of the app, switch to the <strong>Add</strong> tab, and add the folder, where your website is saved (for example, <code>Users/codecat/Documents/Websites/my-website</code>). Click on the <strong>Create &et; Add Repository</strong> button to confirm your choice. This will add and set up your project folder as a repository, which is just a fancy name for a project.</p>
+	<p>In the GitHub app, click the <strong>+ icon</strong> in the top left of the app, switch to the <strong>Add</strong> tab, and add the folder, where your website is saved (for example, <code>Users/codecat/Documents/Websites/my-website</code>). Click on the <strong>Create & Add Repository</strong> button to confirm your choice. This will add and set up your project folder as a repository, which is just a fancy name for a project.</p>
 </div>
 <div class="wins">
-	<p>Go back to the GitHub app now, click the <strong>+ icon</strong> in the top left of the app, switch to the <strong>Add</strong> tab, and add the folder, where your website is saved (for example, <code>C:\Users\codecat\Documents\Websites/my-website</code>). Click on the <strong>Add Repository</strong> button to confirm your choice. This will add and set up your project folder as a repository, which is just a fancy name for a project.</p>
+	<p>Go back to the GitHub app now, click the <strong>+ icon</strong> in the top left of the app, switch to the <strong>Add</strong> tab, and add the folder, where your website is saved (for example, <code>C:\Users\codecat\Documents\Websites\my-website</code>). Click on the <strong>Add Repository</strong> button to confirm your choice. This will add and set up your project folder as a repository, which is just a fancy name for a project.</p>
 </div>
 </div>
 
@@ -61,7 +61,7 @@ When you select your project now, you'll see a list of changes since the last co
 
 Before you can publish and sync changes, you first have to commit them as a package. It's good practice to do this every time you make any significant changes to the website (add a new blog post, make design changes etc).
 
-To commit your changes, enter a **Summary** (a short title) for your commit and optionally a brief description. For your first commit, the title can simply be: *Setting up my website*. Click the **Commit to master** button to confirm the commit. 
+To commit your changes, enter a **Summary** (a short title) for your commit and optionally a brief description. For your first commit, the title can simply be: *Setting up my website*. Click the **Commit to master** button to confirm the commit.
 
 <div class="os-switch"><div class="osx"><img src="{{ "/images/github-mac-1-review-changes.png" | prepend: site.baseurl }}"/></div><div class="wins"><img src="{{ "/images/github-win-1-review-changes.png" | prepend: site.baseurl }}"/></div></div>
 
@@ -73,7 +73,7 @@ When you add commits, it's good practice for the title and description to briefl
 
 Once all changes have been added to a commit (if you make additional changes, you can make a new commit), it's time to sync them with the online copy of your repository which will be hosted on GitHub.
 
-The commit package you just saved will now appear under the **History** section. When you do this for the first time, you'll see a **Publish** button in the top right corner of the app. 
+The commit package you just saved will now appear under the **History** section. When you do this for the first time, you'll see a **Publish** button in the top right corner of the app.
 
 <div class="os-switch"><div class="osx"><img src="{{ "/images/github-mac-1-review-changes-sync.png" | prepend: site.baseurl }}"/></div><div class="wins"><img src="{{ "/images/github-win-1-review-changes-sync.png" | prepend: site.baseurl }}"/></div></div>
 
@@ -85,13 +85,13 @@ It's important to name the repository for your Jekyll website in the following f
 
 Once you've changed that, click the **<span class="os-switch"><span class="osx">Push Repository</span><span class="wins">Publish</span></span>** button.
 
-Congratulations! Your website is now on GitHub! Go on, you can check your project's code at: **https://github.com/&lt;username&gt;/&lt;username&gt;.github.io** 
+Congratulations! Your website is now on GitHub! Go on, you can check your project's code at: **https://github.com/&lt;username&gt;/&lt;username&gt;.github.io**
 
 Remember to replace the **&lt;username&gt;** part with your own GitHub username, just like <a href="https://github.com/GraceHoppurr/GraceHoppurr.github.io" target="_blank">Grace did</a>. You'll see all the files are the same as the files in the project on your computer.
 
 <div class="os-switch"><div class="osx"><img src="{{ "/images/github-published-repo.png" | prepend: site.baseurl }}"/></div><div class="wins"><img src="{{ "/images/github-published-repo-win.png" | prepend: site.baseurl }}"/></div></div>
 
-In a few minutes, the website should also be available online, for anyone in the world to visit, at **https://&lt;username&gt;.github.io** (again, replace the **&lt;username&gt;** with your own username). Once the website comes online, you can send the link to your friends. 
+In a few minutes, the website should also be available online, for anyone in the world to visit, at **https://&lt;username&gt;.github.io** (again, replace the **&lt;username&gt;** with your own username). Once the website comes online, you can send the link to your friends.
 
 The next time you'll have changes to commit, you can just click on the **Sync** button in the top right corner to upload recent changes, but don't forget to first **Commit** the changes you want to sync. Your website will also be updated automatically whenever you sync your repository.
 
