@@ -167,7 +167,7 @@ To clean up the newly created empty folder, you can use the command:
 </code></pre></div>
 </span>
 </div>
-<code class="highlighter-rouge"><span class="os-switch"><span class="osx">rm</span><span class="wins">rmdir</span></span></code> stands for "**r**e**m**ove". Be careful when using this command, there's no undo, so make sure you're only deleting files and folder you don't need anymore.
+<code class="highlighter-rouge"><span class="os-switch"><span class="osx">rm</span><span class="wins">rmdir</span></span></code> stands for "**r**e**m**ove<span class="os-switch"><span class="wins"> <strong>dir</strong>ectory</span></span>". Be careful when using this command, there's no undo, so make sure you're only deleting files and folder you don't need anymore.
 
 <div class="os-switch">
 <span class="osx">
