@@ -6,7 +6,7 @@ permalink: /6-publish/
 
 In <a href="{{ "/5-design" | prepend: site.baseurl }}">Part 5</a>, you made your website much better looking. It looks so good it's time to share it with the world and send the link to your friends.
 
-At the moment, your awesome website lives on your computer. You can visit it in your web browser after you run it from the Terminal with `jekyll serve`. Unfortunately, this doesn't yet make it available to anyone else. Which is why we'll now take a look at how you can publish it online with a little help from <a href="https://github.com" target="_blank">GitHub</a>.
+At the moment, your awesome website lives on your computer. You can visit it in your web browser after you run it from the <span class="os-switch"><span class="osx">Terminal</span><span class="wins">Command Prompt</span></span> with `jekyll serve`. Unfortunately, this doesn't yet make it available to anyone else. Which is why we'll now take a look at how you can publish it online with a little help from <a href="https://github.com" target="_blank">GitHub</a>.
 
 <div class="hint">
 Note: You can skip this part and come back to it later.

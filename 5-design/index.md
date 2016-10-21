@@ -56,10 +56,10 @@ Next, download <a href="https://dl.dropboxusercontent.com/u/8417464/CodeCatz/min
 
 <div class="os-switch"><div class="osx"><img src="{{ "/images/sublime-folder-structure.png" | prepend: site.baseurl }}"/></div><div class="wins"><img src="{{ "/images/sublime-folder-structure-win.png" | prepend: site.baseurl }}"/></div></div>
 
-After you've copied the three folders, make sure to refresh your website and check the Terminal for any errors.
+After you've copied the three folders, make sure to refresh your website and check the <span class="os-switch"><span class="osx">Terminal</span><span class="wins">Command Prompt</span></span> for any errors.
 
 <div class="hint">
-Hint: After editing the <code>_config.yml</code> file, you'll have to restart your Jekyll website from the Terminal. If you get any errors after you've copied the new folders from the minima theme, make sure the folders are placed in the same folder as the <code>_posts</code>, <code>_site</code> and <code>css</code> folders of your project, not inside an additional folder.
+Hint: After editing the <code>_config.yml</code> file, you'll have to restart your Jekyll website from the <span class="os-switch"><span class="osx">Terminal</span><span class="wins">Command Prompt</span></span>. If you get any errors after you've copied the new folders from the minima theme, make sure the folders are placed in the same folder as the <code>_posts</code>, <code>_site</code> and <code>css</code> folders of your project, not inside an additional folder.
 </div>
 
 ## CSS basics

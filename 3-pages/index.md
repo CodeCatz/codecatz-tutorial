@@ -121,7 +121,7 @@ Desktop web browsers also offer other tools that can help you see how a webpage 
 
 Let's get back to your own website. At the moment, you still have the section that displays blog posts on the front page of the website. We'll now create a new web page that will be used for displaying blog posts, so there's more space for other content.
 
-Use Finder to make a copy of the file `about.md` and rename the copy to `blog.html` (make sure both files are in the same folder). Edit the YAML part of `blog.html` like this:
+Use <span class="os-switch"><span class="osx">Finder</span><span class="wins">File Explorer</span></span> to make a copy of the file `about.md` and rename the copy to `blog.html` (make sure both files are in the same folder). Edit the YAML part of `blog.html` like this:
 
 	---
 	layout: page

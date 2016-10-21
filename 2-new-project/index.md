@@ -21,10 +21,9 @@ codecat</span><span class="wins">> cd Documents
 > cd Websites</span></span>
 </code></pre></div>
 
-You can of course create the folder for your Jekyll project somehwere else. Just make sure to use the <span class="os-switch"><span class="osx">Terminal</span><span class="wins">Command Prompt</span></span> to move into that folder. Once you're in the right place <span class="os-switch"><span class="osx">(remember: you can always check with <code class="highlighter-rouge">pwd</code>)</span></span>, run this command:
+You can of course create the folder for your Jekyll project somehwere else. Just make sure to use the <span class="os-switch"><span class="osx">Terminal</span><span class="wins">Command Prompt</span></span> to move into that folder. Once you're in the right place<span class="os-switch"><span class="osx"> (remember: you can always check with <code class="highlighter-rouge">pwd</code>)</span></span>, run this command:
 
-<div class="highlighter-rouge"><pre class="highlight"><code><span class="os-switch"><span class="osx">$ jekyll new my-website
-codecat</span><span class="wins">> jekyll new my-website</span></span>
+<div class="highlighter-rouge"><pre class="highlight"><code><span class="os-switch"><span class="osx">$ jekyll new my-website</span><span class="wins">> jekyll new my-website</span></span>
 </code></pre></div>
 
 
@@ -36,7 +35,7 @@ For example, if you wanted to create a website about cats versus dogs, you would
 
 If you installed Jekyll and typed the command to start a new project correctly, you should now have a new folder `my-website`.
 
-In the Terminal, make sure to move into the project folder:
+In the <span class="os-switch"><span class="osx">Terminal</span><span class="wins">Command Prompt</span></span>, make sure to move into the project folder:
 
 <div class="highlighter-rouge"><pre class="highlight"><code><span class="os-switch"><span class="osx">$</span><span class="wins">></span></span> cd my-website</code></pre></div>
 
@@ -54,20 +53,37 @@ Once you press enter to confirm the command, your Jekyll website should be runni
 
 Once your Jekyll project is all set up, you can just start it up with the command:
 
-	$ jekyll serve
+<div class="highlighter-rouge"><pre class="highlight"><code><span class="os-switch"><span class="osx">$ jekyll serve</span><span class="wins">> jekyll serve</span></span>
+</code></pre></div>
 
-Whenever a Jekyll project is running on your computer, you should see something like this in your Terminal and you won't be able to input additional commands:
+Whenever a Jekyll project is running on your computer, you should see something like this in your <span class="os-switch"><span class="osx">Terminal</span><span class="wins">Command Prompt</span></span> and you won't be able to input additional commands:
 
-	$ jekyll serve
-	Configuration file: /Users/codecat/Documents/Websites/my-website/_config.yml
-	            Source: /Users/codecat/Documents/Websites/my-website
-	       Destination: /Users/codecat/Documents/Websites/my-website/_site
-	      Generating...
-	                    done.
-	 Auto-regeneration: enabled for '/Users/codecat/Documents/Websites/my-website'
-	Configuration file: /Users/codecat/Documents/Websites/my-website/_config.yml
-	    Server address: http://127.0.0.1:4000/
-	  Server running... press ctrl-c to stop.
+<div class="os-switch">
+<div class="osx">	
+<pre class="highlight"><code>$ jekyll serve
+Configuration file: /Users/codecat/Documents/Websites/my-website/_config.yml
+            Source: /Users/codecat/Documents/Websites/my-website
+       Destination: /Users/codecat/Documents/Websites/my-website/_site
+      Generating...
+                    done.
+ Auto-regeneration: enabled for '/Users/codecat/Documents/Websites/my-website'
+Configuration file: /Users/codecat/Documents/Websites/my-website/_config.yml
+    Server address: http://127.0.0.1:4000/
+  Server running... press ctrl-c to stop.</code></pre>
+</div>
+<div class="wins">	
+<pre class="highlight"><code>> jekyll serve
+Configuration file: C:\Users\codecat\Documents\Websites\my-website\_config.yml
+            Source: C:\Users\codecat\Documents\Websites\my-website
+       Destination: C:\Users\codecat\Documents\Websites\my-website\_site
+      Generating...
+                    done.
+ Auto-regeneration: enabled for 'C:\Users\codecat\Documents\Websites\my-website'
+Configuration file: C:\Users\codecat\Documents\Websites\my-website\_config.yml
+    Server address: http://127.0.0.1:4000/
+  Server running... press ctrl-c to stop.</code></pre>
+</div>
+</div>
 
 That's a lot of words that basically mean one thing: your website is now running on your computer, and you can visit it in your web browser (Chrome, Safari, Firefox etc) on the address **<a href="http://127.0.0.1:4000/" target="_blank">http://127.0.0.1:4000/</a>**.
 
@@ -80,7 +96,7 @@ Let's also take a look at how you can stop Jekyll from running, which is always 
 If you go back to your web browser now and refresh your website, it won't work anymore. Go back to the <span class="os-switch"><span class="osx">Terminal</span><span class="wins">Command Prompt</span></span> and run the website again with `jekyll serve`.
 
 <div class="hint">
-Hint: remember this part so that you can visit your website on your own later on. Remember to run <code>jekyll serve</code> from the Terminal inside the folder of your Jekyll project <span class="os-switch"><span class="osx">(use <code>pwd</code> to check whether you're in the right folder if you get any errors)</span></span>.
+Hint: remember this part so that you can visit your website on your own later on. Remember to run <code>jekyll serve</code> from the <span class="os-switch"><span class="osx">Terminal</span><span class="wins">Command Prompt</span></span> inside the folder of your Jekyll project (use <span class="os-switch"><span class="osx"><code>pwd</code></span><span class="wins"><code>cd</code></span></span> to check whether you're in the right folder if you get any errors).
 </div>
 
 ## Get to know your website
@@ -132,12 +148,12 @@ The website should now look something like this:
 
 <br />
 <div class="hint">
-Hint: make sure Jekyll is running in the Terminal (remember <code>jekyll serve</code>?). If there's anything wrong with the code, the Terminal will also show you potential errors, so check your Terminal window whenever the website doesn't load.
+Hint: make sure Jekyll is running in the <span class="os-switch"><span class="osx">Terminal</span><span class="wins">Command Prompt</span></span> (remember <code>jekyll serve</code>?). If there's anything wrong with the code, the <span class="os-switch"><span class="osx">Terminal</span><span class="wins">Command Prompt</span></span> will also show you potential errors, so check your <span class="os-switch"><span class="osx">Terminal</span><span class="wins">Command Prompt</span></span> window whenever the website doesn't load.
 </div>
 
 <div class="recap">
 <h2>What did you learn?</h2>
-Wow, you have your own website now! You created it by starting a new Jekyll project through the Terminal (<code>jekyll new my-website</code>) and then running the website with <code>jekyll serve</code>. You were then able to open the website in your web browser, and edit the title, email and description on the front page.
+Wow, you have your own website now! You created it by starting a new Jekyll project through the <span class="os-switch"><span class="osx">Terminal</span><span class="wins">Command Prompt</span></span> (<code>jekyll new my-website</code>) and then running the website with <code>jekyll serve</code>. You were then able to open the website in your web browser, and edit the title, email and description on the front page.
 </div>
 
 In <a href="{{ "/3-pages" | prepend: site.baseurl }}">Part 3</a>, you'll learn more about editing the content of pages and basics of HTML, the language of the web.

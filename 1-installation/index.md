@@ -9,7 +9,7 @@ Before we can get started, let's take a few minutes to get familiar with an app 
 
 
 ## Get to know the <span class="os-switch"><span class="osx">Terminal</span><span class="wins">Command Prompt</span></span>
-<img src="{{ "/images/terminal-icon-mac.png" | prepend: site.baseurl }}" class="text-icon"/> First, find and open an app called Terminal on your computer.
+<img src="{{ "/images/terminal-icon-mac.png" | prepend: site.baseurl }}" class="text-icon"/> First, find and open an app called <span class="os-switch"><span class="osx">Terminal</span><span class="wins">Command Prompt</span></span> on your computer.
 <span class="os-switch"><span class="osx">It's usually in the `/Applications/Utilities` folder or you can use Spotlight Search to find it.</span>
 <span class="wins">You can find it by typing `cmd` in your search bar in windows menu</span></span>
 
@@ -195,7 +195,7 @@ Feeling a bit confused? Reward yourself with some chocolate and feel free to tak
 Right now the commands probably look confusing and unnecessary because you can do the same thing much faster using your mouse and
 <span class="os-switch"><span class="osx">Finder</span><span class="wins">File Explorer</span></span>, but we promise they become easier with practice (plus, you can already impress your friends by talking to your computer like a hacker from the movies!)
 
-It's not just about looking cool though, we promise. Eventually, moving through your computer with text commands can become more effecient than using Finder, and you'll be using the Terminal more and more as you learn about programming.
+It's not just about looking cool though, we promise. Eventually, moving through your computer with text commands can become more effecient than using <span class="os-switch"><span class="osx">Finder</span><span class="wins">File Explorer</span></span>, and you'll be using the <span class="os-switch"><span class="osx">Terminal</span><span class="wins">Command Prompt</span></span> more and more as you learn about programming.
 
 <div class="more">
 You can learn more about the <span class="os-switch"><span class="osx">Terminal in
