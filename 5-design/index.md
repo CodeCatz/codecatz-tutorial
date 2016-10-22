@@ -10,7 +10,7 @@ In <a href="{{ "/4-posts" | prepend: site.baseurl }}">Part 4</a>, you learned ho
 
 In previous parts, you learned the basics of HTML. We called HTML the language of the web as it helps us define the content and structure of websites. When we want to style various HTML elements, we use another language — CSS. 
 
-It's a good practice to keep your content separated from design, which is why your Jekyll project saves stylesheet files in its own folder. To be more precise, you can find the file that define your website's design in the folder called `css`.
+It's a good practice to keep your content separated from design, which is why your Jekyll project saves stylesheet files in its own folder. To be more precise, you can find the files that define your website's design in the folder called `css`.
 
 If you look into the folder `css`, you'll see the file `main.scss`, which defines basic design settings. Open the file in Sublime and find the line that starts with `$base-font-family:` and change the entire line to:
 
@@ -38,7 +38,7 @@ If you're feeling curious, try playing with `$text-color` and `$background-color
 
 Ok, we've got a confession to make. We promised you'd be using CSS for design, but we have only shown you how to edit a style file written in SASS. That is why the file we were just editing ends with `.scss` and not `.css`.
 
-Here's the thing: CSS is the design language of the web, but it can be difficult to write and maintain on large website. This is where <a href="http://sass-lang.com/" target="_blank">SASS</a> comes in. SASS is a CSS extension language, which simply means that it makes working with CSS much easier. It allows us to define our favorite color once and use it as many times as we want for different elements. See how easy it was to change colors in `css/main.scss`?
+Here's the thing: CSS is the design language of the web, but it can be difficult to write and maintain on large websites. This is where <a href="http://sass-lang.com/" target="_blank">SASS</a> comes in. SASS is a CSS extension language, which simply means that it makes working with CSS much easier. It allows us to define our favorite color once and use it as many times as we want for different elements. See how easy it was to change colors in `css/main.scss`?
 
 If you don't want to worry about design too much, you can use one of the Jekyll themes made by others. You can find the instructions on how to install new themes in the <a href="https://jekyllrb.com/docs/themes/" target="_blank">Jekyll documentation</a> and on <a href="https://help.github.com/articles/adding-a-jekyll-theme-to-your-github-pages-site/" target="_blank">GitHub</a> (we'll use GitHub to publish your website in the next step).
 

@@ -15,8 +15,7 @@ For example, you might want to create a new folder called `Websites` in your exi
 <div class="highlighter-rouge"><pre class="highlight"><code><span class="os-switch"><span class="osx">$ cd Documents
 $ mkdir Websites
 $ cd Websites
-$ pwd
-codecat</span><span class="wins">> cd Documents
+$ pwd</span><span class="wins">> cd Documents
 > mkdir Websites
 > cd Websites</span></span>
 </code></pre></div>

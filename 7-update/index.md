@@ -8,7 +8,7 @@ In <a href="{{ "/6-publish" | prepend: site.baseurl }}">Part 6</a>, you publishe
 
 ## Create a new folder for your images
 
-It's a good idea to create a new folder for your images, so they don't get mixed up with the rest of your content. Go ahead an create a folder called `images` in your project folder (feel free to use <span class="os-switch"><span class="osx">Finder</span><span class="wins">File Explorer</span></span> for this).
+It's a good idea to create a new folder for your images, so they don't get mixed up with the rest of your content. Go ahead and create a folder called `images` in your project folder (feel free to use <span class="os-switch"><span class="osx">Finder</span><span class="wins">File Explorer</span></span> for this).
 
 ## Add photos to you image folder
 
