@@ -26,7 +26,7 @@ For example, if today were July 29, 1947*, the name of your new blog post file w
 
 ### Edit the title, date and other front matter
 
-Now that you have your new blog post file, you also need to update its the title, date and other general information about the blog post in the first few lines of the blog post. It's similar to what you've already done when creating a new page.
+Now that you have your new blog post file, you also need to update the title, date and other general information about the blog post in the first few lines of the blog post. It's similar to what you've already done when creating a new page.
 
 Right now, your blog post file (`_posts/1947-07-29-learning-jekyll.markdown`) should start with this:
 
@@ -78,7 +78,7 @@ And add the following line after the line with the closing Heading 2 tag (`</h2>
 
 Save the file and reload the website in your browser. Jekyll will now automatically include the first paragraph of each blog post on the page.
 
-To make sure the readers know there's more than just the first paragraph to your blog posts, you can also add a "Read more" link after `{% raw %}{{ post.excerpt }}{% endraw %}` the like this:
+To make sure the readers know there's more than just the first paragraph to your blog posts, you can also add a "Read more" link after `{% raw %}{{ post.excerpt }}{% endraw %}` like this:
 
 	{% raw %}<a href="{{ post.url | prepend: site.baseurl }}">Read more ...</a>{% endraw %}
 
